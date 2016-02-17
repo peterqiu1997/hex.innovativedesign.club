@@ -24,7 +24,7 @@
     <body id="content" ng-controller="MainCtrl">
         <div class="landing-container">
             <div class="landing-wrapper">
-                <div class="image-wrapper">
+                <div class="image-wrapper" id="image-wrapper">
                     <div class="landing-image top">
                         <img src="./img/landing/landing-image.png" alt="">
                     </div>
@@ -32,12 +32,20 @@
                         <img src="./img/landing/landing-image-hover.png" alt="">
                     </div>
                 </div>
-                <div class="text-wrapper">
+                <div class="link nav-big" id="about">about</div>
+                <div class="title-wrapper">
                     <div class="title">hex</div>
-                    <div class="subtitle"></div>
+                    <div class="subtitle">
+                        <img src="./img/landing/subtitle.png" alt="">
+                    </div>
                 </div>
+                <div class="link nav-big" id="schedule">schedule</div>
+                <div class="nav-small"></div>
             </div>
         </div>
-        <div class="schedule-container"></div>
+        <div class="about-container" id="about-container"></div>
+        <div class="schedule-container" id="schedule-container">
+            <div class="title">schedule</div>
+        </div>
     </body>
 </html>

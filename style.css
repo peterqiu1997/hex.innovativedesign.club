@@ -8,7 +8,16 @@
     z-index: 1;
 }
 
+html {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
 #content {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
     background: #DB7E4D;
     color: #FFF;
     font-family: "Montserrat";
@@ -30,7 +39,7 @@
 
 .landing-container .landing-wrapper .image-wrapper {
     position: relative;
-    display: inline-block;
+    margin: 0 auto;
     height: 500px;
     width: 500px;
     text-align: center;
@@ -64,22 +73,57 @@
     cursor: pointer;
 }
 
-.landing-container .landing-wrapper .text-wrapper .title {
+.landing-container .landing-wrapper .title-wrapper {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.landing-container .landing-wrapper .title-wrapper .title {
+    display: inline-block;
     font-size: 90px;
-    width: 100%;
+    line-height: 1;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
 
-.landing-container .landing-wrapper .text-wrapper .subtitle {
-    width: 100%;
+.landing-container .landing-wrapper .title-wrapper .subtitle img {
+    display: inline-block;
     height: 23px;
-    background: url(./img/landing/subtitle.png) no-repeat center center;
-    background-size: contain;
+    width: auto;
+}
+
+.landing-container .landing-wrapper .link {
+    width: 9rem;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    padding: 15px;
+    text-transform: uppercase;
+    -webkit-transition: letter-spacing 0.25s linear;
+    -moz-transition: letter-spacing 0.25s linear;
+    -o-transition: letter-spacing 0.25s linear;
+    transition: letter-spacing 0.25s linear;
+}
+
+.landing-container .landing-wrapper .link:hover {
+    cursor: pointer;
+    letter-spacing: 0.2rem;
+}
+
+.about-container {
+    padding: 2%;
+    height: 100vh;
 }
 
 .schedule-container {
+    padding: 2%;
     height: 100vh;
+}
+
+.schedule-container .title {
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
 }
 
 @media (max-width: 600px) {
@@ -89,17 +133,23 @@
     }
 }
 
+@media (max-width: 515px) {
+    .landing-container .landing-wrapper .link.nav-big {
+        display: none;
+    }
+}
+
 @media (max-width: 450px) {
     .landing-container .landing-wrapper .image-wrapper {
         height: 300px;
         width: 300px;
     }
 
-    .landing-container .landing-wrapper .text-wrapper .title {
+    .landing-container .landing-wrapper .title-wrapper .title {
         font-size: 75px;
     }
 
-    .landing-container .landing-wrapper .text-wrapper .subtitle {
+    .landing-container .landing-wrapper .title-wrapper .subtitle img {
         height: 20px;
     }
 }

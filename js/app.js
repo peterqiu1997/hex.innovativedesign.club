@@ -5,12 +5,30 @@ var app = angular.module('hex', [])
 
         ];
 
+        $scope.sunday = [
+
+        ];
+
+        function scrollAnimate(container) {
+            $('html, body').animate({
+                scrollTop: $(container).offset().top
+            }, 'slow');
+        };
+
         $(document).ready(function() {
-            $('.image-wrapper').click(function() {
-                $('html, body').animate({
-                    scrollTop: $('.schedule-container').offset().top
-                }, 'slow');
+
+            $('#image-wrapper').click(function() {
+                scrollAnimate('#about-container');
             });
+
+            $('#about').click(function() {
+                scrollAnimate('#about-container');
+            });
+
+            $('#schedule').click(function() {
+                scrollAnimate('#schedule-container')
+            });
+
         });
 
     }]);
