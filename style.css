@@ -1,0 +1,105 @@
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    z-index: 1;
+}
+
+#content {
+    background: #DB7E4D;
+    color: #FFF;
+    font-family: "Montserrat";
+}
+
+.landing-container {
+    text-align: center;
+    height: 100vh;
+    padding: 2%;
+}
+
+.landing-container .landing-wrapper {
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.landing-container .landing-wrapper .image-wrapper {
+    position: relative;
+    display: inline-block;
+    height: 500px;
+    width: 500px;
+    text-align: center;
+}
+
+.landing-container .landing-wrapper .image-wrapper .landing-image {
+    position: absolute;
+    left: 0;
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+}
+
+.landing-container .landing-wrapper .image-wrapper .landing-image.top img {
+    z-index: 2;
+    width: 100%;
+}
+
+.landing-container .landing-wrapper .image-wrapper .landing-image.bottom img {
+    z-index: 1;
+    width: 100%;
+    opacity: 0;
+    -webkit-transition: opacity 0.25s linear;
+    -moz-transition: opacity 0.25s linear;
+    -o-transition: opacity 0.25s linear;
+    transition: opacity 0.25s linear;
+}
+
+.landing-container .landing-wrapper .image-wrapper:hover .landing-image.bottom img {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.landing-container .landing-wrapper .text-wrapper .title {
+    font-size: 90px;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.landing-container .landing-wrapper .text-wrapper .subtitle {
+    width: 100%;
+    height: 23px;
+    background: url(./img/landing/subtitle.png) no-repeat center center;
+    background-size: contain;
+}
+
+.schedule-container {
+    height: 100vh;
+}
+
+@media (max-width: 600px) {
+    .landing-container .landing-wrapper .image-wrapper {
+        height: 400px;
+        width: 400px;
+    }
+}
+
+@media (max-width: 450px) {
+    .landing-container .landing-wrapper .image-wrapper {
+        height: 300px;
+        width: 300px;
+    }
+
+    .landing-container .landing-wrapper .text-wrapper .title {
+        font-size: 75px;
+    }
+
+    .landing-container .landing-wrapper .text-wrapper .subtitle {
+        height: 20px;
+    }
+}
