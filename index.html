@@ -43,9 +43,34 @@
                 <div class="nav-small"></div>
             </div>
         </div>
-        <div class="about-container" id="about-container"></div>
+        <div class="about-container" id="about-container">
+            <div class="title">about</div>
+            <div class="about-info">
+                <p>Innovative Design presents HEX: Hone &amp; Explore, a workshop series where students come to learn and teach design.</p>
+                <br>
+                <p>Workshops are taught by members and alumni of <a href="http://innovativedesign.club">Innovative Design</a>.  They are free and open to ALL skill levels and Cal students! Come out to learn from and meet fellow design-minded students.</p>
+            </div>
+        </div>
         <div class="schedule-container" id="schedule-container">
             <div class="title">schedule</div>
+            <div class="schedule-wrapper">
+                <div class="saturday">
+                    <div class="workshop-wrapper" ng-repeat="facilitator in saturday track by $index">
+                        <div class="workshop">{{ facilitator.workshop }}</div>
+                        <div class="details">
+                            {{ facilitator.name }}
+                        </div>
+                    </div>
+                </div>
+                <div class="sunday">
+                    <div class="workshop-wrapper" ng-repeat="facilitator in sunday track by $index">
+                        <div class="workshop">{{ facilitator.workshop }}</div>
+                        <div class="details">
+                            {{ facilitator.name }}
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </body>
 </html>

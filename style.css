@@ -14,6 +14,8 @@ html {
 }
 
 #content {
+    max-width: 1440px;
+    margin: 0 auto;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -111,19 +113,39 @@ html {
 }
 
 .about-container {
-    padding: 2%;
+    padding: 5% 20px 5% 20px;
     height: 100vh;
 }
 
+.about-container .title {
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.about-container .about-info {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    font-size: 1.25rem;
+}
+
 .schedule-container {
-    padding: 2%;
-    height: 100vh;
+    padding: 5% 20px 5% 20px;
 }
 
 .schedule-container .title {
     text-align: center;
     font-size: 50px;
     text-transform: uppercase;
+}
+
+.schedule-container .schedule-wrapper .saturday {
+    /*display: inline-block;*/
+}
+
+.schedule-container .schedule-wrapper .sunday {
+    /*display: inline-block;*/
 }
 
 @media (max-width: 600px) {
