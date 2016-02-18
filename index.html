@@ -35,36 +35,49 @@
           </div>
         </div>
         <div class="about-container" id="about-container">
-            <div class="title">about</div>
-            <div class="about-info centered">
-                <img class='about-icon' src="./img/about/hex-icon-cal.png">February 27 &amp; 28
-                <img class='about-icon' src="./img/about/hex-icon-clock.png">11:00 AM - 4:30PM
-                <img class='about-icon' src="./img/about/hex-icon-pin.png">Barrows 151, 155, 170
+          <div class="title">about</div>
+          <div class="about-info centered">
+              <img class='about-icon' src="./img/about/hex-icon-cal.png">February 27 &amp; 28
+              <img class='about-icon' src="./img/about/hex-icon-clock.png">11:00 AM - 4:30PM
+              <img class='about-icon' src="./img/about/hex-icon-pin.png">Barrows 151, 155, 170
+          </div>
+          <div class="about-info">
+              <p>HEX: Hone &amp; Explore is a workshop series where students come to learn and teach design.</p>
+              <br>
+              <p>Workshops are taught by members and alumni of <a href="http://innovativedesign.club">Innovative Design</a>.  They are free and open to ALL skill levels and Cal students! Come out to learn from and meet fellow design-minded students.</p>
+          </div>
+          <div class="about-info">
+            <div class="about-img-container">
+              <div class="about-photo hex1">
+                <h1 class="about-photo-text">HONE</h1>
+              </div>
+              <div class="about-photo hex2">
+                <h1 class="about-photo-text">&amp;</h1>
+              </div>
+              <div class="about-photo hex3">
+                <h1 class="about-photo-text">EXPLORE</h1>
+              </div>
             </div>
-            <div class="about-info">
-                <p>HEX: Hone &amp; Explore is a workshop series where students come to learn and teach design.</p>
-                <br>
-                <p>Workshops are taught by members and alumni of <a href="http://innovativedesign.club">Innovative Design</a>.  They are free and open to ALL skill levels and Cal students! Come out to learn from and meet fellow design-minded students.</p>
-            </div>
-            <div class="about-info">
-              <div class="about-img-container">
-                <div class="about-photo hex1">
-                  <h1 class="about-photo-text">HONE</h1>
-                </div>
-                <div class="about-photo hex2">
-                  <h1 class="about-photo-text">&amp;</h1>
-                </div>
-                <div class="about-photo hex3">
-                  <h1 class="about-photo-text">EXPLORE</h1>
+          </div>
+        </div>
+        <div class="schedule-container" id="schedule-container">
+          <div class="title">schedule</div>
+          <div class="schedule-wrapper">
+            <div class="saturday">
+              <div class="workshop-wrapper" ng-repeat="facilitator in saturday track by $index">
+                <div class="workshop">{{ facilitator.workshop }}</div>
+                <div class="details">
+                  {{ facilitator.name }}
                 </div>
               </div>
             </div>
-        </div>
-        <div class="sunday">
-          <div class="workshop-wrapper" ng-repeat="facilitator in sunday track by $index">
-            <div class="workshop">{{ facilitator.workshop }}</div>
-            <div class="details">
-              {{ facilitator.name }}
+            <div class="sunday">
+              <div class="workshop-wrapper" ng-repeat="facilitator in sunday track by $index">
+                <div class="workshop">{{ facilitator.workshop }}</div>
+                <div class="details">
+                  {{ facilitator.name }}
+                </div>
+              </div>
             </div>
           </div>
         </div>
