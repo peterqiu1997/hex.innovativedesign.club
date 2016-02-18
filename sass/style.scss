@@ -123,8 +123,9 @@ html {
 }
 
 .about-container {
-  padding: 5% 20px 5% 20px;
-  height: 100vh;
+    padding: 5% 20px 5% 20px;
+    height: 130vh;
+}
 
   .title {
     text-align: center;
@@ -132,11 +133,75 @@ html {
     text-transform: uppercase;
   }
 
-  .about-info {
+.about-container .about-info {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
     padding: 20px;
     max-width: 900px;
     margin: 0 auto;
     font-size: 1.25rem;
+  }
+}
+
+.about-container .about-info.centered {
+  text-align: center;
+  height: 90px;
+  line-height: 50px;
+}
+
+.about-icon {
+  vertical-align: middle;
+  height: 35px;
+  width: 35px;
+  margin: 10px;
+}
+
+.about-info a {
+  color: inherit;
+  font-weight: bold;
+}
+
+.about-img-container {
+  position: relative;
+  width: 100%;
+  height: 70vh;
+  overflow: hidden;
+
+  .about-photo {
+    position: absolute;
+    width: 33%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center center;
+    transition: all 0.6s ease;
+
+    &.hex1 {
+      background-image: url('/img/about/hex1.jpg');
+    }
+    &.hex2 {
+      background-image: url('/img/about/hex2.jpg');
+      margin-left: 33%;
+    }
+    &.hex3 {
+      background-image: url('/img/about/hex3.jpg');
+      margin-left: 66%;
+    }
+
+    h1 {
+      width: 100%;
+      text-align: center;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+
+    &:hover {
+      width: 100%;
+      margin-left: 0;
+      z-index: 2;
+    }
   }
 }
 
