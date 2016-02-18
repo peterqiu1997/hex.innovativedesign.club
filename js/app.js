@@ -5,6 +5,7 @@ var app = angular.module('hex', [])
         time: '11:00',
         people: [
           {
+            image: './img/schedule/tina.jpg',
             name: 'Tina Xu',
             workshop: 'Intro to Fashion Illustration',
             level: 'Beginner',
@@ -13,6 +14,7 @@ var app = angular.module('hex', [])
             about: 'Learn the fundamentals of human anatomy and how it is modified in fashion illustration, as well as how to stylize different silhouettes, shapes, and fabric. We\'ll draw pretty dresses and explore ways you can elevate your finished designs!'
           },
           {
+            image: './img/schedule/andie.jpg',
             name: 'Andie Biggs',
             workshop: 'Photo Dreamscapes: Multiple Exposures',
             level: 'Beginner',
@@ -26,6 +28,7 @@ var app = angular.module('hex', [])
         time: '12:00',
         people: [
           {
+            image: './img/schedule/elizabeth.jpg',
             name: 'Elizabeth Lin',
             workshop: 'Intro to Prototyping',
             level: 'Beginner',
@@ -39,6 +42,7 @@ var app = angular.module('hex', [])
         time: '1:00',
         people: [
           {
+            image: './img/schedule/hongye.jpg',
             name: 'Hongye Xu',
             workshop: 'Lightwriting (and Advanced Memes)',
             level: 'Intermediate',
@@ -47,6 +51,7 @@ var app = angular.module('hex', [])
             about: ''
           },
           {
+            image: './img/schedule/roya.jpg',
             name: 'Roya Chagnon',
             workshop: 'Low Poly Portraiture',
             level: 'Intermediate',
@@ -60,6 +65,7 @@ var app = angular.module('hex', [])
         time: '2:00',
         people: [
           {
+            image: './img/schedule/jordan.jpg',
             name: 'Jordan Said',
             workshop: 'Intro to Lightroom',
             level: 'Beginner',
@@ -68,6 +74,7 @@ var app = angular.module('hex', [])
             about: 'Learn the ins and outs of Lightroom, photo management and batch editing techniques. This workshop will focus on the principles of editing one photo and applying that change to multiple photos. It will mostly focus on the functionalities of Lightroom, such as sliders, brushes, color adjustments, filters, and tagging.'
           },
           {
+            image: './img/schedule/haidee.jpg',
             name: 'Haidee Pan',
             workshop: 'Techniques and Color in Digital Illustration',
             level: 'Intermediate',
@@ -81,6 +88,7 @@ var app = angular.module('hex', [])
         time: '3:00',
         people: [
           {
+            image: './img/schedule/davidbui.jpg',
             name: 'David Bui',
             workshop: 'Intro to UI Design',
             level: 'Beginner',
@@ -89,6 +97,7 @@ var app = angular.module('hex', [])
             about: 'Learn how to use basic functions of Sketch, for example how to draw shapes, measure distances, use shadows to style elements, and more to make cute little buttons that can be used on a webpage.'
           },
           {
+            image: './img/schedule/.jpg',
             name: 'Lisa Inoue',
             workshop: 'Lettering (and Self Love)',
             level: 'Beginner',
@@ -102,6 +111,7 @@ var app = angular.module('hex', [])
         time: '4:00',
         people: [
           {
+            image: './img/schedule/stanley.jpg',
             name: 'Stanley Kwong',
             workshop: 'Introduction to Web Development',
             level: 'Beginner',
@@ -118,6 +128,7 @@ var app = angular.module('hex', [])
         time: '11:00',
         people: [
           {
+            image: './img/schedule/barbara.jpg',
             name: 'Barbara Yang',
             workshop: 'Introduction to Hand Lettering',
             level: 'Beginner',
@@ -125,6 +136,7 @@ var app = angular.module('hex', [])
             blurb: 'Hand lettering is all hype and wonderful, but many find it difficult to do without a brush pen or watercolors. FEAR NOT, it\'s completely possible with just a pencil or pen!! Learn how to "fake" a brush pen look and how to add the cute leaves/garlands/ribbons to match.'
           },
           {
+            image: './img/schedule/anne.jpg',
             name: 'Anne Lin and Tina Xu',
             workshop: 'Photo Composition and Doodling for Instagram',
             level: 'Beginner',
@@ -138,6 +150,7 @@ var app = angular.module('hex', [])
         time: '12:00',
         people: [
           {
+            image: './img/schedule/irene.jpg',
             name: 'Pamela Hu and Irene Dea',
             workshop: 'Portrait Basics in Illustrator & Lightroom',
             level: 'Beginner',
@@ -146,6 +159,7 @@ var app = angular.module('hex', [])
             about: 'You don\'t need to be a super experienced artist/photographer to make cool things/portraits and to play around with design! We will learn some basic Illustrator and Lightroom skills through creating graphic design portraits. You\'ll edit a photo in Lightroom, export it to Illustrator, and add ornamentation to create an artsy illustrated photo.'
           },
           {
+            image: './img/schedule/cassie.jpg',
             name: 'Cassie Zhou',
             workshop: 'Making Chibis in Illustrator',
             level: 'Beginner',
@@ -159,6 +173,7 @@ var app = angular.module('hex', [])
         time: '1:00',
         people: [
           {
+            image: './img/schedule/george.jpg',
             name: 'George Geng',
             workshop: 'Introduction to Digital Painting',
             level: 'Beginner',
@@ -167,6 +182,7 @@ var app = angular.module('hex', [])
             about: 'A introductory walk through of painting in Photoshop, from layers and brushes to blending and shading. Attendees will do a hands-on portion creating a side profile avatar of themselves or anything.'
           },
           {
+            image: './img/schedule/zach.jpg',
             name: 'Zach Owens',
             workshop: 'Introduction to Film Development',
             level: 'Beginner',
@@ -180,6 +196,7 @@ var app = angular.module('hex', [])
         time: '2:00',
         people: [
           {
+            image: './img/schedule/davidxie.jpg',
             name: 'David Xie',
             workshop: 'Beauty in Letters-Styling Monograms and Ampersands',
             level: 'Beginner',
@@ -188,6 +205,7 @@ var app = angular.module('hex', [])
             about: 'Learn to letter with ~style~! You\'ll learn how to compose and create elegant and sophisticated monograms.'
           },
           {
+            image: './img/schedule/julia.jpg',
             name: 'Julia Sun',
             workshop: 'Responsive Instagram Grid Layout',
             level: 'Beginner',
@@ -201,6 +219,7 @@ var app = angular.module('hex', [])
         time: '3:00',
         people: [
           {
+            image: './img/schedule/angira.jpg',
             name: 'Angira Shirahatti',
             workshop: 'Illustrating with Shapes',
             level: 'Intermediate',
@@ -209,6 +228,7 @@ var app = angular.module('hex', [])
             about: ''
           },
           {
+            image: './img/schedule/charley.jpg',
             name: 'Charley Huang',
             workshop: 'Vaporwave in Videography',
             level: 'Intermediate',
@@ -222,6 +242,7 @@ var app = angular.module('hex', [])
         time: '4:00',
         people: [
           {
+            image: './img/schedule/tina.jpg',
             name: 'Tina Xu',
             workshop: 'Aesthetic Silhouettes',
             level: 'Beginner',

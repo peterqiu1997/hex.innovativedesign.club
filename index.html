@@ -119,7 +119,7 @@
                     <div class="about" ng-bind="facilitator.about"></div>
                     <div class="software" ng-bind="facilitator.software"></div>
                     <div class="level" ng-bind="facilitator.level"></div>
-                    <div class="picture" ng-style="{ 'background-image': 'url(http://wallpapercave.com/wp/Cl7LBnj.jpg)' }"></div>
+                    <div class="picture" ng-style="{ 'background-image': 'url({{ facilitator.image }})' }"></div>
                     <div class="name" ng-bind="facilitator.name"></div>
                     <div class="link">
                       <a ng-href="#">Portfolio</a>
@@ -142,7 +142,7 @@
                     <div class="about" ng-bind="facilitator.about"></div>
                     <div class="software" ng-bind="facilitator.software"></div>
                     <div class="level" ng-bind="facilitator.level"></div>
-                    <div class="picture" ng-style="{ 'background-image': 'url(http://wallpapercave.com/wp/Cl7LBnj.jpg)' }"></div>
+                    <div class="picture" ng-style="{ 'background-image': 'url({{ facilitator.image }})' }"></div>
                     <div class="name" ng-bind="facilitator.name"></div>
                     <div class="link">
                       <a ng-href="#">Portfolio</a>
@@ -156,7 +156,9 @@
       </div>
     </div>
     <div class="footer">
-      <img src="./img/logo/innod.png">
+      <a href="http://innovativedesign.club">
+        <img src="./img/logo/innod.png">
+      </a>
     </div>
   </body>
 </html>
