@@ -5,6 +5,7 @@ var app = angular.module('hex', [])
         time: '11:00',
         people: [
           {
+            link: 'http://www.tinaxu.com/',
             image: './img/schedule/tina.jpg',
             name: 'Tina Xu',
             workshop: 'Intro to Fashion Illustration',
@@ -14,6 +15,7 @@ var app = angular.module('hex', [])
             about: 'Learn the fundamentals of human anatomy and how it is modified in fashion illustration, as well as how to stylize different silhouettes, shapes, and fabric. We\'ll draw pretty dresses and explore ways you can elevate your finished designs!'
           },
           {
+            link: 'http://stankwong.me/',
             image: './img/schedule/andie.jpg',
             name: 'Andie Biggs',
             workshop: 'Photo Dreamscapes: Multiple Exposures',
@@ -51,6 +53,7 @@ var app = angular.module('hex', [])
             about: ''
           },
           {
+            link: 'https://www.behance.net/royachagnon',
             image: './img/schedule/roya.jpg',
             name: 'Roya Chagnon',
             workshop: 'Low Poly Portraiture',
@@ -74,6 +77,7 @@ var app = angular.module('hex', [])
             about: 'Learn the ins and outs of Lightroom, photo management and batch editing techniques. This workshop will focus on the principles of editing one photo and applying that change to multiple photos. It will mostly focus on the functionalities of Lightroom, such as sliders, brushes, color adjustments, filters, and tagging.'
           },
           {
+            link: 'http://www.haideepan.com/',
             image: './img/schedule/haidee.jpg',
             name: 'Haidee Pan',
             workshop: 'Techniques and Color in Digital Illustration',
@@ -88,6 +92,7 @@ var app = angular.module('hex', [])
         time: '3:00',
         people: [
           {
+            link: 'http://www.dtbui.com/',
             image: './img/schedule/davidbui.jpg',
             name: 'David Bui',
             workshop: 'Intro to UI Design',
@@ -97,6 +102,7 @@ var app = angular.module('hex', [])
             about: 'Learn how to use basic functions of Sketch, for example how to draw shapes, measure distances, use shadows to style elements, and more to make cute little buttons that can be used on a webpage.'
           },
           {
+            link: 'http://behance.net/lisainoue',
             image: './img/schedule/lisa.jpg',
             name: 'Lisa Inoue',
             workshop: 'Lettering (and Self Love)',
@@ -111,6 +117,7 @@ var app = angular.module('hex', [])
         time: '4:00',
         people: [
           {
+            link: 'http://stankwong.me/',
             image: './img/schedule/stanley.jpg',
             name: 'Stanley Kwong',
             workshop: 'Introduction to Web Development',
@@ -128,6 +135,7 @@ var app = angular.module('hex', [])
         time: '11:00',
         people: [
           {
+            link: 'http://cargocollective.com/xbarbarayang',
             image: './img/schedule/barbara.jpg',
             name: 'Barbara Yang',
             workshop: 'Introduction to Hand Lettering',
@@ -150,6 +158,7 @@ var app = angular.module('hex', [])
         time: '12:00',
         people: [
           {
+            link: 'https://drive.google.com/open?id=0B8cbfRx4vLEdM21pN29nUkFLYlE',
             image: './img/schedule/irene.jpg',
             name: 'Pamela Hu and Irene Dea',
             workshop: 'Portrait Basics in Illustrator & Lightroom',
@@ -173,6 +182,7 @@ var app = angular.module('hex', [])
         time: '1:00',
         people: [
           {
+            link: 'http://georgedoodles.tumblr.com/',
             image: './img/schedule/george.jpg',
             name: 'George Geng',
             workshop: 'Introduction to Digital Painting',
@@ -182,6 +192,7 @@ var app = angular.module('hex', [])
             about: 'A introductory walk through of painting in Photoshop, from layers and brushes to blending and shading. Attendees will do a hands-on portion creating a side profile avatar of themselves or anything.'
           },
           {
+            link: 'http://zachowens.wix.com/zachowensphoto',
             image: './img/schedule/zach.jpg',
             name: 'Zach Owens',
             workshop: 'Introduction to Film Development',
@@ -196,6 +207,7 @@ var app = angular.module('hex', [])
         time: '2:00',
         people: [
           {
+            link: 'http://david.xie.fm/',
             image: './img/schedule/davidxie.jpg',
             name: 'David Xie',
             workshop: 'Beauty in Letters-Styling Monograms and Ampersands',
@@ -205,6 +217,7 @@ var app = angular.module('hex', [])
             about: 'Learn to letter with ~style~! You\'ll learn how to compose and create elegant and sophisticated monograms.'
           },
           {
+            link: 'http://juliasun.io/',
             image: './img/schedule/julia.jpg',
             name: 'Julia Sun',
             workshop: 'Responsive Instagram Grid Layout',
@@ -219,6 +232,7 @@ var app = angular.module('hex', [])
         time: '3:00',
         people: [
           {
+            link: 'http://ashirahatti.com/',
             image: './img/schedule/angira.jpg',
             name: 'Angira Shirahatti',
             workshop: 'Illustrating with Shapes',
@@ -242,13 +256,14 @@ var app = angular.module('hex', [])
         time: '4:00',
         people: [
           {
+            link: 'http://www.tinaxu.com/',
             image: './img/schedule/tina.jpg',
             name: 'Tina Xu',
             workshop: 'Aesthetic Silhouettes',
             level: 'Beginner',
             software: 'Illustrator',
             blurb: 'Pretty things make me happy',
-            about: ''
+            about: 'Learn how to use clipping masks to create very simple yet compelling silhouettes.'
           }
         ]
       }
