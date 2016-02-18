@@ -1,77 +1,77 @@
 <!-- Innovative Design - HEX: (H)one & (Ex)plore -->
 <!-- By Julia Sun (http://juliasun.io/) -->
 <html id="ng-app" data-ng-app="hex">
-    <head>
-        <title>HEX: (H)one &amp; (Ex)plore with Innovative Design</title>
-        <meta name="viewport" content="initial-scale=1">
+  <head>
+    <title>HEX: (H)one &amp; (Ex)plore with Innovative Design</title>
+    <meta name="viewport" content="initial-scale=1">
 
-        <meta property="og:title" content="HEX: H(one) &amp; (Ex)plore with Innovative Design">
-        <meta property="og:type" content="website">
-        <meta property="og:url" content="http://hex.innovativedesign.club">
-        <meta property="og:image" content="">
-        <meta property="og:description" content="Innovative Design presents HEX: Hone &amp; Explore, a workshop series where students come to learn and teach design">
+    <meta property="og:title" content="HEX: H(one) &amp; (Ex)plore with Innovative Design">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://hex.innovativedesign.club">
+    <meta property="og:image" content="">
+    <meta property="og:description" content="Innovative Design presents HEX: Hone &amp; Explore, a workshop series where students come to learn and teach design">
 
-        <link rel="icon" type="image/png" href="img/logo/logo.png">
+    <link rel="icon" type="image/png" href="img/logo/logo.png">
 
-        <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 
-        <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 
-        <script src="./bower_components/angular/angular.min.js"></script>
-        <script src="./bower_components/jquery/dist/jquery.min.js"></script>
-        <script src="./js/app.js"></script>
+    <script src="./bower_components/angular/angular.min.js"></script>
+    <script src="./bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="./js/app.js"></script>
 
-    </head>
-    <body id="content" ng-controller="MainCtrl">
-        <div class="landing-container">
-            <div class="landing-wrapper">
-                <div class="image-wrapper" id="image-wrapper">
-                    <div class="landing-image top">
-                        <img src="./img/landing/landing-image.png" alt="">
-                    </div>
-                    <div class="landing-image bottom">
-                        <img src="./img/landing/landing-image-hover.png" alt="">
-                    </div>
-                </div>
-                <div class="link nav-big" id="about">about</div>
-                <div class="title-wrapper">
-                    <div class="title">hex</div>
-                    <div class="subtitle">
-                        <img src="./img/landing/subtitle.png" alt="">
-                    </div>
-                </div>
-                <div class="link nav-big" id="schedule">schedule</div>
-                <div class="nav-small"></div>
-            </div>
+  </head>
+  <body id="content" ng-controller="MainCtrl">
+    <div class="landing-container">
+      <div class="landing-wrapper">
+        <div class="image-wrapper" id="image-wrapper">
+          <div class="landing-image top">
+            <img src="./img/landing/landing-image.png" alt="">
+          </div>
+          <div class="landing-image bottom">
+            <img src="./img/landing/landing-image-hover.png" alt="">
+          </div>
         </div>
-        <div class="about-container" id="about-container">
-            <div class="title">about</div>
-            <div class="about-info">
-                <p>Innovative Design presents HEX: Hone &amp; Explore, a workshop series where students come to learn and teach design.</p>
-                <br>
-                <p>Workshops are taught by members and alumni of <a href="http://innovativedesign.club">Innovative Design</a>.  They are free and open to ALL skill levels and Cal students! Come out to learn from and meet fellow design-minded students.</p>
-            </div>
+        <div class="link nav-big" id="about">about</div>
+        <div class="title-wrapper">
+          <div class="title">hex</div>
+          <div class="subtitle">
+            <img src="./img/landing/subtitle.png" alt="">
+          </div>
         </div>
-        <div class="schedule-container" id="schedule-container">
-            <div class="title">schedule</div>
-            <div class="schedule-wrapper">
-                <div class="saturday">
-                    <div class="workshop-wrapper" ng-repeat="facilitator in saturday track by $index">
-                        <div class="workshop">{{ facilitator.workshop }}</div>
-                        <div class="details">
-                            {{ facilitator.name }}
-                        </div>
-                    </div>
-                </div>
-                <div class="sunday">
-                    <div class="workshop-wrapper" ng-repeat="facilitator in sunday track by $index">
-                        <div class="workshop">{{ facilitator.workshop }}</div>
-                        <div class="details">
-                            {{ facilitator.name }}
-                        </div>
-                    </div>
-                </div>
+        <div class="link nav-big" id="schedule">schedule</div>
+        <div class="nav-small"></div>
+      </div>
+    </div>
+    <div class="about-container" id="about-container">
+      <div class="title">about</div>
+      <div class="about-info">
+        <p>Innovative Design presents HEX: Hone &amp; Explore, a workshop series where students come to learn and teach design.</p>
+        <br>
+        <p>Workshops are taught by members and alumni of <a href="http://innovativedesign.club">Innovative Design</a>.  They are free and open to ALL skill levels and Cal students! Come out to learn from and meet fellow design-minded students.</p>
+      </div>
+    </div>
+    <div class="schedule-container" id="schedule-container">
+      <div class="title">schedule</div>
+      <div class="schedule-wrapper">
+        <div class="saturday">
+          <div class="workshop-wrapper" ng-repeat="facilitator in saturday track by $index">
+            <div class="workshop">{{ facilitator.workshop }}</div>
+            <div class="details">
+              {{ facilitator.name }}
             </div>
+          </div>
         </div>
-    </body>
+        <div class="sunday">
+          <div class="workshop-wrapper" ng-repeat="facilitator in sunday track by $index">
+            <div class="workshop">{{ facilitator.workshop }}</div>
+            <div class="details">
+              {{ facilitator.name }}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
