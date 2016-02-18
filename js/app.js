@@ -213,6 +213,14 @@ var app = angular.module('hex', [])
                 scrollAnimate('#schedule-container')
             });
 
+            $('#about-small').click(function() {
+                scrollAnimate('#about-container');
+            });
+
+            $('#schedule-small').click(function() {
+                scrollAnimate('#schedule-container')
+            });
+
         });
 
     }]);
