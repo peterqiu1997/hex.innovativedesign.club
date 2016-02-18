@@ -103,7 +103,7 @@ var app = angular.module('hex', [])
             level: 'Beginner',
             software: 'Illustrator, Brush pen, Paintbrush',
             blurb: '',
-            about: 'Learn basic HTML/CSS and how to make a responsive (mobile-compatible) grid like Instagram. This workshop is beginner friendly, but basic knowledge about HTML/CSS will enhance the experience!'
+            about: 'Learn to the basics to brush lettering like a pro, and discover yourself along the way.'
           }
         ]
       },
