@@ -13,8 +13,8 @@
 
     <link rel="icon" type="image/png" href="img/logo/logo.png">
 
-        <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
-        <link href='https://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
 
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
@@ -110,7 +110,9 @@
         <div class="column">
           <div class="day">saturday</div>
           <div class="workshop-wrapper" ng-repeat="facilitator in saturday track by $index">
-            <div class="workshop">{{ facilitator.workshop }}</div>
+            <div class="workshop-title">
+              {{ facilitator.workshop }}
+            </div>
             <div class="details">
               {{ facilitator.name }}
             </div>
@@ -119,7 +121,9 @@
         <div class="column">
           <div class="day">sunday</div>
           <div class="workshop-wrapper" ng-repeat="facilitator in sunday track by $index">
-            <div class="workshop">{{ facilitator.workshop }}</div>
+            <div class="workshop-title">
+              {{ facilitator.workshop }}
+            </div>
             <div class="details">
               {{ facilitator.name }}
             </div>

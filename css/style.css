@@ -172,6 +172,9 @@ html {
       width: 100%;
       position: absolute;
       top: 50%;
+      -webkit-transform: translateY(-50%);
+      -moz-transform: translateY(-50%);
+      -o-transform: translateY(-50%);
       transform: translateY(-50%);
       text-align: center;
       font-size: 0;
@@ -212,11 +215,18 @@ html {
       .schedule-container .schedule-wrapper .column:nth-child(2n) {
         margin-right: 0; }
       .schedule-container .schedule-wrapper .column .day {
+        margin-bottom: 1.75rem;
         text-align: center;
         text-transform: uppercase;
         font-size: 2.25rem; }
       .schedule-container .schedule-wrapper .column .workshop-wrapper {
         padding: 5px; }
+        .schedule-container .schedule-wrapper .column .workshop-wrapper .workshop-title.underline {
+          text-decoration: underline; }
+        .schedule-container .schedule-wrapper .column .workshop-wrapper .details {
+          display: none;
+          font-family: "Lato", sans-serif;
+          font-weight: 300; }
         .schedule-container .schedule-wrapper .column .workshop-wrapper:hover {
           cursor: pointer; }
 
