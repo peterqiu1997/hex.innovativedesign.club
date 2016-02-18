@@ -109,23 +109,47 @@
       <div class="schedule-wrapper">
         <div class="column">
           <div class="day">saturday</div>
-          <div class="workshop-wrapper" ng-repeat="facilitator in saturday track by $index">
-            <div class="workshop-title">
-              {{ facilitator.workshop }}
-            </div>
-            <div class="details">
-              {{ facilitator.name }}
+          <div class="workshop-wrapper" ng-repeat="time in saturday track by $index">
+            <div class="time-section">
+              <div class="time-column" ng-bind="time.time"></div>
+              <div class="facilitator-column">
+                <div class="facilitator" ng-repeat="facilitator in time.people">
+                  <div class="workshop-title" ng-bind="facilitator.workshop"></div>
+                  <div class="details">
+                    <div class="about" ng-bind="facilitator.about"></div>
+                    <div class="software" ng-bind="facilitator.software"></div>
+                    <div class="level" ng-bind="facilitator.level"></div>
+                    <div class="picture" ng-style="{ 'background-image': 'url(http://wallpapercave.com/wp/Cl7LBnj.jpg)' }"></div>
+                    <div class="name" ng-bind="facilitator.name"></div>
+                    <div class="link">
+                      <a ng-href="#">Portfolio</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
         <div class="column">
           <div class="day">sunday</div>
-          <div class="workshop-wrapper" ng-repeat="facilitator in sunday track by $index">
-            <div class="workshop-title">
-              {{ facilitator.workshop }}
-            </div>
-            <div class="details">
-              {{ facilitator.name }}
+          <div class="workshop-wrapper" ng-repeat="time in sunday track by $index">
+            <div class="time-section">
+              <div class="time-column" ng-bind="time.time"></div>
+              <div class="facilitator-column">
+                <div class="facilitator" ng-repeat="facilitator in time.people">
+                  <div class="workshop-title" ng-bind="facilitator.workshop"></div>
+                  <div class="details">
+                    <div class="about" ng-bind="facilitator.about"></div>
+                    <div class="software" ng-bind="facilitator.software"></div>
+                    <div class="level" ng-bind="facilitator.level"></div>
+                    <div class="picture" ng-style="{ 'background-image': 'url(http://wallpapercave.com/wp/Cl7LBnj.jpg)' }"></div>
+                    <div class="name" ng-bind="facilitator.name"></div>
+                    <div class="link">
+                      <a ng-href="#">Portfolio</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
