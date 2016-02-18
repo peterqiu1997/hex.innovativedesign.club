@@ -16,6 +16,8 @@ $ gulp
 ```
 
 ### Credits
+Thanks to these people for helping me finish features on time and generally 
+being lifesavers 
 * [Christian Le](http://christianle.com/)
 * [Kevin Lee](http://kevinmlee.io/)
 
