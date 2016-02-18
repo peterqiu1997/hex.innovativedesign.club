@@ -97,7 +97,7 @@ var app = angular.module('hex', [])
             about: 'Learn how to use basic functions of Sketch, for example how to draw shapes, measure distances, use shadows to style elements, and more to make cute little buttons that can be used on a webpage.'
           },
           {
-            image: './img/schedule/.jpg',
+            image: './img/schedule/lisa.jpg',
             name: 'Lisa Inoue',
             workshop: 'Lettering (and Self Love)',
             level: 'Beginner',
