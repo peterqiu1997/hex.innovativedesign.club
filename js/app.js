@@ -33,11 +33,11 @@ var app = angular.module('hex', [])
             link: 'http://www.elizabethylin.com/',
             image: './img/schedule/elizabeth.jpg',
             name: 'Elizabeth Lin',
-            workshop: 'Intro to Prototyping',
+            workshop: 'The Prototyping Process',
             level: 'Beginner',
             software: '',
             blurb: '',
-            about: ''
+            about: 'Come stop by Elizabeth\'s prototyping workshop this Saturday! She\'ll be going over the prototyping process: how she starts & organizes her projects and what she prioritizes when making iterations.'
           }
         ]
       },
@@ -48,11 +48,11 @@ var app = angular.module('hex', [])
             link: 'http://hongyexu.co/',
             image: './img/schedule/hongye.jpg',
             name: 'Hongye Xu',
-            workshop: 'Lightwriting (and Advanced Memes)',
+            workshop: 'Lightwriting in After Effects',
             level: 'Intermediate',
             software: 'After Effects',
             blurb: '',
-            about: ''
+            about: 'Learn how to add dazzling light streaks to real action video and futureproof yourself for when profile videos come out.'
           },
           {
             link: 'https://www.behance.net/royachagnon',
@@ -107,7 +107,7 @@ var app = angular.module('hex', [])
             link: 'http://behance.net/lisainoue',
             image: './img/schedule/lisa.jpg',
             name: 'Lisa Inoue',
-            workshop: 'Lettering (and Self Love)',
+            workshop: 'Brush Basics for Lettering',
             level: 'Beginner',
             software: 'Illustrator, Brush pen, Paintbrush',
             blurb: '',
@@ -227,9 +227,9 @@ var app = angular.module('hex', [])
             name: 'Julia Sun',
             workshop: 'Responsive Instagram Grid Layout',
             level: 'Beginner',
-            software: 'Text Editor',
+            software: 'Text Editor, Chrome',
             blurb: 'I would really enjoy a pet poro',
-            about: 'Make your own responsive (mobile-compatible) Instagram grid layout and learn basic HTML/CSS at the same time. This workshop is beginner friendly, but basic familiarity with HTML/CSS will enhance the experience!'
+            about: 'Make your own responsive (mobile-compatible) Instagram grid layout and learn basic HTML/CSS at the same time. This workshop is beginner friendly, but some familiarity with HTML/CSS will enhance the experience!'
           }
         ]
       },
