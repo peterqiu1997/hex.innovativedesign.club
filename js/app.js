@@ -15,7 +15,7 @@ var app = angular.module('hex', [])
             about: 'Learn the fundamentals of human anatomy and how it is modified in fashion illustration, as well as how to stylize different silhouettes, shapes, and fabric. We\'ll draw pretty dresses and explore ways you can elevate your finished designs!'
           },
           {
-            link: 'http://stankwong.me/',
+            link: 'http://andiebiggs.22slides.com/',
             image: './img/schedule/andie.jpg',
             name: 'Andie Biggs',
             workshop: 'Photo Dreamscapes: Multiple Exposures',
@@ -30,12 +30,13 @@ var app = angular.module('hex', [])
         time: '12:00',
         people: [
           {
+            link: 'http://www.elizabethylin.com/',
             image: './img/schedule/elizabeth.jpg',
             name: 'Elizabeth Lin',
             workshop: 'Intro to Prototyping',
             level: 'Beginner',
             software: '',
-            blurb: 'Instagram: @yungvapeking',
+            blurb: '',
             about: ''
           }
         ]
@@ -44,6 +45,7 @@ var app = angular.module('hex', [])
         time: '1:00',
         people: [
           {
+            link: 'http://hongyexu.co/',
             image: './img/schedule/hongye.jpg',
             name: 'Hongye Xu',
             workshop: 'Lightwriting (and Advanced Memes)',
@@ -84,7 +86,7 @@ var app = angular.module('hex', [])
             level: 'Intermediate',
             software: 'Photoshop, Paint Tool SAI',
             blurb: '',
-            about: 'Come learn basic painting techniques, how to organize layers, and basic color usage.'
+            about: 'Learn in ins and outs of Lightroom, photo management and batch editing techniques. This workshop will focus on the principles of editing one photo and applying that change to multiple photos. It will mostly focus on the functionalities of Lightroom, such as sliders, brushes, color adjustments, filters, and tagging.'
           }
         ]
       },
@@ -141,16 +143,18 @@ var app = angular.module('hex', [])
             workshop: 'Introduction to Hand Lettering',
             level: 'Beginner',
             software: 'Pencil, pen',
-            blurb: 'Hand lettering is all hype and wonderful, but many find it difficult to do without a brush pen or watercolors. FEAR NOT, it\'s completely possible with just a pencil or pen!! Learn how to "fake" a brush pen look and how to add the cute leaves/garlands/ribbons to match.'
+            blurb: '',
+            about: 'Hand lettering is all hype and wonderful, but many find it difficult to do without a brush pen or watercolors. FEAR NOT, it\'s completely possible with just a pencil or pen!! Learn how to "fake" a brush pen look and how to add the cute leaves/garlands/ribbons to match.'
           },
           {
+            link: 'https://www.instagram.com/anne.io/',
             image: './img/schedule/anne.jpg',
             name: 'Anne Lin and Tina Xu',
             workshop: 'Photo Composition and Doodling for Instagram',
             level: 'Beginner',
             software: 'Illustrator, Instagram',
             blurb: '',
-            about: ''
+            about: 'Learn about composition in photos and in personal grids on Instagram, as well as cool tips to illustrate your favorite photos.'
           }
         ]
       },
@@ -168,13 +172,14 @@ var app = angular.module('hex', [])
             about: 'You don\'t need to be a super experienced artist/photographer to make cool things/portraits and to play around with design! We will learn some basic Illustrator and Lightroom skills through creating graphic design portraits. You\'ll edit a photo in Lightroom, export it to Illustrator, and add ornamentation to create an artsy illustrated photo.'
           },
           {
+            link: 'https://www.dropbox.com/sh/3gefnmimvevr7fe/AABW09LBb7PvDvUZ_xaSD0Eoa?dl=0',
             image: './img/schedule/cassie.jpg',
             name: 'Cassie Zhou',
             workshop: 'Making Chibis in Illustrator',
             level: 'Beginner',
             software: 'Illustrator',
             blurb: '',
-            about: ''
+            about: 'Want to learn how to make cute chibis but have little to no experience with Illustrator? Have no fear, three tools are all you really need to make anything and anyone!'
           }
         ]
       },
@@ -199,7 +204,7 @@ var app = angular.module('hex', [])
             level: 'Beginner',
             software: 'Lightroom',
             blurb: '',
-            about: 'A introductory walk through of painting in Photoshop, from layers and brushes to blending and shading. Attendees will do a hands-on portion creating a side profile avatar of themselves or anything.'
+            about: 'Learn about the in\'s and out\'s of black and white film tank development. We\'ll cover everything from the basics of the process, to pushing and pulling film, as well as the rewards associated with developing your own film. We\'ll wrap up with a simple way of scanning negatives into a flatbed scanner, and then using a photo editing software such as Lightroom to clean up images.'
           }
         ]
       },
@@ -214,7 +219,7 @@ var app = angular.module('hex', [])
             level: 'Beginner',
             software: 'Pencil, Markers',
             blurb: '',
-            about: 'Learn to letter with ~style~! You\'ll learn how to compose and create elegant and sophisticated monograms.'
+            about: 'Learn the beauty of the ~~swash~~. Implement this classical calligraphic technique to beautify all your lettering projects and give them that high fashion flair! Make elegant, loopy monograms with me!'
           },
           {
             link: 'http://juliasun.io/',
@@ -239,16 +244,17 @@ var app = angular.module('hex', [])
             level: 'Intermediate',
             software: 'Illustrator',
             blurb: '',
-            about: ''
+            about: 'An Introductory workshop in digital iilustration that will show you how to make a picture out of circles and boxes. You\'ll learn how to go from a hand sketch to an illustration, pick up tips for constructing complex shapes and how to keep your 80 million anchor points organized. We\'ll look at the Twitter logo as an example of an illustration made solely from circles, and then make our own!'
           },
           {
+            link: 'https://www.facebook.com/charleyhuangs/videos/929917170416885/',
             image: './img/schedule/charley.jpg',
             name: 'Charley Huang',
             workshop: 'Vaporwave in Videography',
             level: 'Intermediate',
             software: 'After Effects',
             blurb: '',
-            about: ''
+            about: 'Learn how to make an edgy, alternative, technicolored video in After Effects.'
           }
         ]
       },
