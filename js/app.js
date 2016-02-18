@@ -54,7 +54,7 @@ var app = angular.module('hex', [])
                 software: 'Lightroom',
                 time: '2:00 - 3:00',
                 blurb: '',
-                about: 'Learn in ins and outs of Lightroom, photo management and batch editing techniques. This workshop will focus on the principles of editing one photo and applying that change to multiple photos. It will mostly focus on the functionalities of Lightroom, such as sliders, brushes, color adjustments, filters, and tagging.'
+                about: 'Learn the ins and outs of Lightroom, photo management and batch editing techniques. This workshop will focus on the principles of editing one photo and applying that change to multiple photos. It will mostly focus on the functionalities of Lightroom, such as sliders, brushes, color adjustments, filters, and tagging.'
             },
             {
                 name: 'Haidee Pan',

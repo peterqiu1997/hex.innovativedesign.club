@@ -55,7 +55,8 @@
     <div class="schedule-container" id="schedule-container">
       <div class="title">schedule</div>
       <div class="schedule-wrapper">
-        <div class="saturday">
+        <div class="column">
+          <div class="day">saturday</div>
           <div class="workshop-wrapper" ng-repeat="facilitator in saturday track by $index">
             <div class="workshop">{{ facilitator.workshop }}</div>
             <div class="details">
@@ -63,7 +64,8 @@
             </div>
           </div>
         </div>
-        <div class="sunday">
+        <div class="column">
+          <div class="day">sunday</div>
           <div class="workshop-wrapper" ng-repeat="facilitator in sunday track by $index">
             <div class="workshop">{{ facilitator.workshop }}</div>
             <div class="details">
