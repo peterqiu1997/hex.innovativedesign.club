@@ -15,7 +15,7 @@ var app = angular.module('hex', [])
             about: 'Learn the fundamentals of human anatomy and how it is modified in fashion illustration, as well as how to stylize different silhouettes, shapes, and fabric. We\'ll draw pretty dresses and explore ways you can elevate your finished designs!'
           },
           {
-            link: 'http://andiebiggs.22slides.com/',
+            link: 'http://andiebiggs.22slides.com/after-thoughts',
             image: './img/schedule/andie.jpg',
             name: 'Andie Biggs',
             workshop: 'Photo Dreamscapes: Multiple Exposures',
@@ -282,9 +282,6 @@ var app = angular.module('hex', [])
     };
 
     $(document).ready(function() {
-      $('#image-wrapper').click(function() {
-        scrollAnimate('#about-container');
-      });
 
       $('#about').click(function() {
         scrollAnimate('#about-container');
