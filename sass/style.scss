@@ -434,6 +434,16 @@ html {
   }
 }
 
+.footer {
+  margin: 10px auto 40px auto;
+  height: 50px;
+  text-align: center;
+
+  img {
+    height: 100%;
+  }
+}
+
 @media (max-width: 800px) {
   .schedule-container {
     .schedule-wrapper {

@@ -304,6 +304,13 @@ html {
       .schedule-container .schedule-wrapper .column .workshop-wrapper:hover {
         cursor: pointer; }
 
+.footer {
+  margin: 10px auto 40px auto;
+  height: 50px;
+  text-align: center; }
+  .footer img {
+    height: 100%; }
+
 @media (max-width: 800px) {
   .schedule-container .schedule-wrapper .column {
     width: 100%;
