@@ -84,7 +84,7 @@ var app = angular.module('hex', [])
             name: 'Haidee Pan',
             workshop: 'Techniques and Color in Digital Illustration',
             level: 'Intermediate',
-            software: 'Photoshop, Paint Tool SAI',
+            software: 'Photoshop, Paint Tool SAI, Tablet highly recommended',
             blurb: '',
             about: 'Learn basic digital painting techniques, how to organize layers, and effective color usage.'
           }
@@ -192,7 +192,7 @@ var app = angular.module('hex', [])
             name: 'George Geng',
             workshop: 'Introduction to Digital Painting',
             level: 'Beginner',
-            software: 'Photoshop',
+            software: 'Photoshop, Tablet highly recommended',
             blurb: '',
             about: 'A introductory walk through of painting in Photoshop, from layers and brushes to blending and shading. Attendees will do a hands-on portion creating a side profile avatar of themselves or anything.'
           },
