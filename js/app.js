@@ -86,7 +86,7 @@ var app = angular.module('hex', [])
             level: 'Intermediate',
             software: 'Photoshop, Paint Tool SAI',
             blurb: '',
-            about: 'Learn in ins and outs of Lightroom, photo management and batch editing techniques. This workshop will focus on the principles of editing one photo and applying that change to multiple photos. It will mostly focus on the functionalities of Lightroom, such as sliders, brushes, color adjustments, filters, and tagging.'
+            about: 'Learn basic digital painting techniques, how to organize layers, and effective color usage.'
           }
         ]
       },
