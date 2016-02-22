@@ -225,11 +225,11 @@ var app = angular.module('hex', [])
             link: 'http://juliasun.io/',
             image: './img/schedule/julia.jpg',
             name: 'Julia Sun',
-            workshop: 'Intro to HTML/CSS',
+            workshop: 'Intro to HTML/CSS and Responsive Web Design',
             level: 'Beginner',
             software: 'Text Editor, Chrome',
             blurb: 'I would really enjoy a pet poro',
-            about: 'Make your own responsive (mobile-compatible) Instagram grid layout and learn basic HTML/CSS at the same time. This workshop is beginner friendly, but some familiarity with HTML/CSS will enhance the experience!'
+            about: 'Make your own responsive (mobile-compatible) Instagram grid layout and learn basic HTML/CSS at the same time. This workshop is beginner friendly, but all skill levels are welcome!'
           }
         ]
       },
