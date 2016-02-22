@@ -225,7 +225,7 @@ var app = angular.module('hex', [])
             link: 'http://juliasun.io/',
             image: './img/schedule/julia.jpg',
             name: 'Julia Sun',
-            workshop: 'Responsive Instagram Grid Layout',
+            workshop: 'Intro to HTML/CSS',
             level: 'Beginner',
             software: 'Text Editor, Chrome',
             blurb: 'I would really enjoy a pet poro',
