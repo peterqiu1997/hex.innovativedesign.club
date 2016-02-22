@@ -215,7 +215,7 @@ var app = angular.module('hex', [])
             link: 'http://david.xie.fm/',
             image: './img/schedule/davidxie.jpg',
             name: 'David Xie',
-            workshop: 'Beauty in Letters-Styling Monograms and Ampersands',
+            workshop: 'Classical Calligraphy, Modern Lettering',
             level: 'Beginner',
             software: 'Pencil, Markers',
             blurb: '',
