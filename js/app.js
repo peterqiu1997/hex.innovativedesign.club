@@ -33,7 +33,7 @@ var app = angular.module('hex', [])
             link: 'http://www.elizabethylin.com/',
             image: './img/schedule/elizabeth.jpg',
             name: 'Elizabeth Lin',
-            workshop: 'The Prototyping Process',
+            workshop: 'Design Portfolios and Interviews',
             level: 'Beginner',
             software: '',
             blurb: '',
@@ -70,6 +70,7 @@ var app = angular.module('hex', [])
         time: '2:00',
         people: [
           {
+            link: 'https://drive.google.com/folderview?id=0B_2bbkn3v6VlYTY4R2FFSXBOVGc&usp=sharing',
             image: './img/schedule/jordan.jpg',
             name: 'Jordan Said',
             workshop: 'Intro to Lightroom',
