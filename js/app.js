@@ -191,7 +191,7 @@ var app = angular.module('hex', [])
         time: '3:00',
         people: [
           {
-            link: 'www.gracesnoh.com',
+            link: 'http://www.gracesnoh.com',
             image: './img/schedule/grace.jpg',
             name: 'Grace Noh',
             workshop: 'UI/UX Principles',
@@ -200,7 +200,7 @@ var app = angular.module('hex', [])
             about: 'The first half of the workshop will cover some important UI/UX principles to keep in mind when designing interfaces for web and mobile applications. The latter half of the workshop will be an introduction to Sketch App, a common UI/UX wire-framing tool, to put these UI/UX principles into practice.'
           },
           {
-            link: 'instagram.com/encoreankur',
+            link: 'http://instagram.com/encoreankur',
             image: './img/schedule/ankuranne.jpeg',
             name: 'Ankur & Anne',
             workshop: 'Instagram Aesthetic',
