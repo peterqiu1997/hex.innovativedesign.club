@@ -18,7 +18,7 @@ html {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  background: #DB7E4D;
+  background: #1F315F;
   color: #FFF;
   font-family: "Montserrat"; }
 
@@ -34,7 +34,7 @@ html {
     transform: translateY(-50%); }
     .landing-container .landing-wrapper .image-wrapper {
       position: relative;
-      margin: 0 auto;
+      margin: 0 auto 24px auto;
       height: 500px;
       width: 500px;
       text-align: center; }
@@ -47,17 +47,6 @@ html {
         .landing-container .landing-wrapper .image-wrapper .landing-image img {
           z-index: 2;
           width: 100%; }
-        .landing-container .landing-wrapper .image-wrapper .landing-image.bottom img {
-          z-index: 1;
-          width: 100%;
-          opacity: 0;
-          -webkit-transition: opacity 0.25s linear;
-          -moz-transition: opacity 0.25s linear;
-          -o-transition: opacity 0.25s linear;
-          transition: opacity 0.25s linear; }
-      .landing-container .landing-wrapper .image-wrapper:hover .landing-image.bottom img {
-        opacity: 1;
-        cursor: pointer; }
     .landing-container .landing-wrapper .title-wrapper {
       display: inline-block;
       vertical-align: middle; }
@@ -316,7 +305,7 @@ html {
     width: 100%;
     margin-right: 0; } }
 
-@media (max-width: 600px) {
+@media (max-width: 640px) {
   .column {
     padding: 0.1rem; }
   .landing-container .landing-wrapper .image-wrapper {
