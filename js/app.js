@@ -97,6 +97,7 @@ var app = angular.module('hex', [])
         time: '4:00',
         people: [
           {
+            link: 'http://www.margaretzhou.com/',
             image: './img/schedule/margie.jpg',
             name: 'Margaret Zhou',
             workshop: 'Intro to AfterEffects',
