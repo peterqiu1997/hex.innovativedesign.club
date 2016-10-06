@@ -169,12 +169,12 @@ var app = angular.module('hex', [])
         time: '2:00',
         people: [
           {
-            link: 'https://www.instagram.com/p/BDHYJZmuAh8/?taken-by=lettersnap',
+            link: 'https://www.instagram.com/lettersnap/',
             image: './img/schedule/barbara.jpg',
             name: 'Barbara Yang',
             workshop: 'Hand Lettering with Basic Tools',
             level: 'Beginner',
-            software: 'Pen, pencil and paper, Photoshop',
+            software: 'Pen, pencil and paper',
             about: 'Learn the basics of hand lettering with pencil (no brush pens necessary!). Be prepared to whip out your elementary school cursive skills.'
           },
           {
