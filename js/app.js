@@ -112,7 +112,7 @@ var app = angular.module('hex', [])
             workshop: 'Geometric Illustrations',
             level: 'Beginner',
             software: 'Illustrator',
-            about: 'Geometric illustrations: Did you know that the twitter logo is made purely from 13 circles? Learn the basics of how to make everything from food to landmarks using only shapes in Illustrator!'
+            about: 'Did you know that the twitter logo is made purely from 13 circles? Learn the basics of how to make everything from food to landmarks using only shapes in Illustrator!'
           }
         ]
       }
