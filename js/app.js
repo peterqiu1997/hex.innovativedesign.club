@@ -123,7 +123,7 @@ var app = angular.module('hex', [])
         time: '12:00',
         people: [
           {
-            link: 'http://frozhouonthego.wixsite.com/czhou',
+            link: 'http://www.catherinezhou.me/',
             image: './img/schedule/cassie.jpg',
             name: 'Cassie Zhou',
             workshop: 'Illustrating Chibis',
