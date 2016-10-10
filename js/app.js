@@ -28,7 +28,7 @@ var app = angular.module('hex', [])
         time: '1:00',
         people: [
           {
-            link: 'www.jceyang.com',
+            link: 'http://www.jceyang.com',
             image: './img/schedule/peterjon.jpg',
             name: 'Peter Phan & Jonathan Yang',
             workshop: 'Intro to Photo',
@@ -37,7 +37,7 @@ var app = angular.module('hex', [])
             about: 'This is an introduction to Lightroom and Photo Theory. Come learn the in\'s and out\'s of Adobe LR, and how to take what\'s good and put it into your own work.'
           },
           {
-            link: 'instagram.com/badboytype',
+            link: 'http://instagram.com/badboytype',
             image: './img/schedule/jasonlisa.jpeg',
             name: 'Lisa Inoue & Jason Mai',
             workshop: 'Lettering',
