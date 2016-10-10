@@ -135,10 +135,10 @@ var app = angular.module('hex', [])
             link: 'http://www.dtbui.com/',
             image: './img/schedule/davidb.jpg',
             name: 'David Bui',
-            workshop: 'Portfolio Building and Hiring Practices',
+            workshop: 'UI/UX Portfolio Building',
             level: 'Beginner',
             software: 'Sketch',
-            about: 'Learn about building a comprehensive portfolio for UI/UX, and industry hiring tips and practices.'
+            about: 'Learn about building a comprehensive portfolio for UI/UX, including projects and approaches.'
           }
         ]
       },
@@ -204,10 +204,10 @@ var app = angular.module('hex', [])
             link: 'http://instagram.com/encoreankur',
             image: './img/schedule/ankuranne.jpeg',
             name: 'Ankur & Anne',
-            workshop: 'Instagram Aesthetic',
+            workshop: 'Modeling 101',
             level: 'Beginner',
             software: 'Photoshop',
-            about: 'Hear the spiciest tips on how to get the most instagram followers, from taking the photo to modeling for it.'
+            about: 'Hear insider tips on how to direct models, including model search, posing, and achieving your aesthetic goals.'
           }
         ]
       }
