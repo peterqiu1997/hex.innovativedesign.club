@@ -197,8 +197,8 @@ var app = angular.module('hex', [])
             name: 'Grace Noh',
             workshop: 'UI/UX Principles',
             level: 'Advanced',
-            software: 'Sketch',
-            about: 'The first half of the workshop will cover some important UI/UX principles to keep in mind when designing interfaces for web and mobile applications. The latter half of the workshop will be an introduction to Sketch App, a common UI/UX wire-framing tool, to put these UI/UX principles into practice.'
+            software: 'Figma',
+            about: 'The first half of the workshop will cover some important UI/UX principles to keep in mind when designing interfaces for web and mobile applications. The latter half of the workshop will be an introduction to Figma, a new UI/UX wire-framing tool, to put these UI/UX principles into practice.'
           },
           {
             link: 'http://instagram.com/encoreankur',
