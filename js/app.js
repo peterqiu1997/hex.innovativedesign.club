@@ -196,7 +196,7 @@ var app = angular.module('hex', [])
             image: './img/schedule/grace.jpg',
             name: 'Grace Noh',
             workshop: 'UI/UX Principles',
-            level: 'Advanced',
+            level: 'Beginner',
             software: 'Figma',
             about: 'The first half of the workshop will cover some important UI/UX principles to keep in mind when designing interfaces for web and mobile applications. The latter half of the workshop will be an introduction to Figma, a new UI/UX wire-framing tool, to put these UI/UX principles into practice.'
           },
