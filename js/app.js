@@ -10,6 +10,7 @@ var app = angular.module('hex', [])
             name: 'Andrew Chang',
             workshop: 'Astrophotography',
             level: 'Intermediate',
+            room: 'Dwinelle 234',
             software: 'Photoshop, Lightroom',
             about: 'Andrew will be teaching a workshop on the basics of astrophotography and how to shoot stars in light-polluted areas (like Berkeley!) Learn to create awesome images of the bright lights above us and the Milky Way!'
           },
@@ -19,6 +20,7 @@ var app = angular.module('hex', [])
             name: 'Le Yi Khor',
             workshop: 'Intro to Illustrator',
             level: 'Beginner',
+            room: 'Dwinelle 242',
             software: 'Illustrator',
             about: 'You don\'t have to be a pro at illustrator to do really cool designs. Learn how you can make designs with just a few basic illustrator tools!'
           }
@@ -33,6 +35,7 @@ var app = angular.module('hex', [])
             name: 'Peter Phan & Jonathan Yang',
             workshop: 'Intro to Photo',
             level: 'Beginner',
+            room: 'Dwinelle 234',
             software: 'Lightroom',
             about: 'This is an introduction to Lightroom and Photo Theory. Come learn the in\'s and out\'s of Adobe LR, and how to take what\'s good and put it into your own work.'
           },
@@ -42,6 +45,7 @@ var app = angular.module('hex', [])
             name: 'Lisa Inoue & Jason Mai',
             workshop: 'Lettering',
             level: 'Beginner',
+            room: 'Dwinelle 242',
             software: 'Photoshop, Brushes',
             about: 'Lettering is great for decorating greeting cards and designing more expressive posters. Come learn how to draw your own beautiful letters with a brush pen!'
           }
@@ -56,6 +60,7 @@ var app = angular.module('hex', [])
             name: 'Roya Chagnon',
             workshop: 'Low Poly Art',
             level: 'Intermediate',
+            room: 'Dwinelle 234',
             software: 'Photoshop, Illustrator',
             about: 'We\'re going to learn how to make an illustration in the low-poly style starting from a photo! An easy way to make something that looks really cool and will impress all your friends.'
           },
@@ -65,6 +70,7 @@ var app = angular.module('hex', [])
             name: 'Ben Marimon',
             workshop: 'Web Design',
             level: 'Intermediate',
+            room: 'Dwinelle 242',
             software: 'Sketch/Illustrator, Text Editor',
             about: 'This workshop will be teaching basics in web design, starting page layout and component design. We\'ll go over how to translate your ideas into tangible code that can run in your browser :D '
           }
@@ -79,6 +85,7 @@ var app = angular.module('hex', [])
             name: 'David Xie',
             workshop: 'Spotify Aesthetic',
             level: 'Beginner',
+            room: 'Dwinelle 234',
             software: 'Photoshop',
             about: 'Have you ever noticed how all design looks the same these days? Be a part of the problem! Learn all about Spotify design aesthetics & duotone coloring with me! <3'
           },
@@ -88,6 +95,7 @@ var app = angular.module('hex', [])
             name: 'Tina Xu',
             workshop: 'Isometric Landscapes',
             level: 'Beginner',
+            room: 'Dwinelle 242',
             software: 'Illustrator',
             about: 'Learn how to make objects, buildings, and more on an isometric grid so you can make cool landscapes like the ones in Monument Valley and Minecraft.'
           }
@@ -102,6 +110,7 @@ var app = angular.module('hex', [])
             name: 'Margaret Zhou',
             workshop: 'Intro to AfterEffects',
             level: 'Beginner',
+            room: 'Dwinelle 234',
             software: 'AfterEffects',
             about: 'Ever wanted to learn how to make motion graphics and how to animate your graphic work? Come learn basics to After Effects and create a short animated video about yourself!'
           },
@@ -111,6 +120,7 @@ var app = angular.module('hex', [])
             name: 'Tina Xu',
             workshop: 'Geometric Illustrations',
             level: 'Beginner',
+            room: 'Dwinelle 242',
             software: 'Illustrator',
             about: 'Did you know that the twitter logo is made purely from 13 circles? Learn the basics of how to make everything from food to landmarks using only shapes in Illustrator!'
           }
@@ -128,6 +138,7 @@ var app = angular.module('hex', [])
             name: 'Cassie Zhou',
             workshop: 'Illustrating Chibis',
             level: 'Beginner',
+            room: 'Dwinelle 234',
             software: 'Illustrator',
             about: 'Join me in my journey to the 2D world! Learn to make a chibi head!'
           },
@@ -137,6 +148,7 @@ var app = angular.module('hex', [])
             name: 'David Bui',
             workshop: 'UI/UX Portfolio Building',
             level: 'Beginner',
+            room: 'Dwinelle 242',
             software: 'Sketch',
             about: 'Learn about building a comprehensive portfolio for UI/UX, including projects and approaches.'
           }
@@ -146,20 +158,12 @@ var app = angular.module('hex', [])
         time: '1:00',
         people: [
           {
-            link: 'http://george-geng.github.io/',
-            image: './img/schedule/george.jpg',
-            name: 'George & Kat',
-            workshop: 'Digital Illustration',
-            level: 'Intermediate',
-            software: 'Tablet, Photoshop/any drawing program',
-            about: 'Love Disney concept art, graphic novels, or other types of digital art? Learn the basics of digital painting and illustration, using line art, value and other fun techniques in Photoshop!'
-          },
-          {
             link: 'http://charissecelestial.com',
             image: './img/schedule/charisse.jpg',
             name: 'Charisse Celestial',
             workshop: 'Sketch to Vector',
             level: 'Beginner',
+            room: 'Dwinelle 234',
             software: 'Photoshop/Illustrator',
             about: 'This workshop will help you simplify the creative process by teaching you how to transfer your work from sketchbook to screen with ease. *Familiarity with the pen tool is preferred but not required.'
           }
@@ -174,6 +178,7 @@ var app = angular.module('hex', [])
             name: 'Barbara Yang',
             workshop: 'Hand Lettering with Basic Tools',
             level: 'Beginner',
+            room: 'Dwinelle 234',
             software: 'Pen, pencil and paper',
             about: 'Learn the basics of hand lettering with pencil (no brush pens necessary!). Be prepared to whip out your elementary school cursive skills.'
           },
@@ -183,6 +188,7 @@ var app = angular.module('hex', [])
             name: 'Ankur Maniar',
             workshop: 'Fashion Photography',
             level: 'Beginner',
+            room: 'Dwinelle 242',
             software: 'Photoshop',
             about: 'Come learn the ins and outs of fashion photography, specifically photo editing for fashion and beauty shots.'
           }
@@ -197,6 +203,7 @@ var app = angular.module('hex', [])
             name: 'Grace Noh',
             workshop: 'UI/UX Principles',
             level: 'Beginner',
+            room: 'Dwinelle 234',
             software: 'Figma',
             about: 'The first half of the workshop will cover some important UI/UX principles to keep in mind when designing interfaces for web and mobile applications. The latter half of the workshop will be an introduction to Figma, a new UI/UX wire-framing tool, to put these UI/UX principles into practice.'
           },
@@ -206,6 +213,7 @@ var app = angular.module('hex', [])
             name: 'Ankur & Anne',
             workshop: 'Modeling 101',
             level: 'Beginner',
+            room: 'Dwinelle 242',
             software: 'Photoshop',
             about: 'Hear insider tips on how to direct models, including model search, posing, and achieving your aesthetic goals.'
           }

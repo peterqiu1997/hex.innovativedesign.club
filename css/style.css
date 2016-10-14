@@ -254,6 +254,9 @@ html {
               .schedule-container .schedule-wrapper .column .workshop-wrapper .time-section .facilitator-column .facilitator .details .about {
                 padding: 0.5rem;
                 font-size: 1.3rem; }
+              .schedule-container .schedule-wrapper .column .workshop-wrapper .time-section .facilitator-column .facilitator .details .room {
+                padding: 0.5rem;
+                font-size: 1.4rem; }
               .schedule-container .schedule-wrapper .column .workshop-wrapper .time-section .facilitator-column .facilitator .details .software {
                 position: relative;
                 display: inline-block;
