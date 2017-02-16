@@ -61,7 +61,7 @@ var app = angular.module('hex', [])
           {
             link: 'http://www.jceyang.com',
             image: './img/schedule/jackiejon.jpg',
-            name: 'Jackie Xu & Jonathan Yu',
+            name: 'Jackie Xu & Jonathan Yang',
             workshop: 'Intro to Lightroom',
             level: 'Beginner',
             room: '166 Barrows',
@@ -179,10 +179,10 @@ var app = angular.module('hex', [])
             workshop: 'Video Color Correction',
             level: 'Intermediate',
             room: '170 Barrows',
-            software: 'Lightroom',
-            about: 'Learn how to make freaky fun retro art with David! We\'ll be using Illustrator to put together funky fun textures \
-            and wacky wild shapes akin to iconic graphic artwork from when your parents were children. Best if you\'ve got a bit of \
-            illustrator under your belt before coming in, but no stress if you\'re fresh fish!'
+            software: 'Premiere Pro',
+            about: 'Video color correction and color grading. What\'s the difference? Is it different? Let\'s find out! Learn how to make \
+            your videos look cinematic, quirky, or fun with the magic of color correction. We will be using the tools within Adobe Premiere \
+            Pro to turn your video clips into masterpieces.'
           }
         ]
       },
