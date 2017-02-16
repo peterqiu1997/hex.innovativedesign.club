@@ -18,9 +18,9 @@ html {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  background: #1F315F;
-  color: #FFF;
-  font-family: "Montserrat"; }
+  background: #FDF2E5;
+  color: #000;
+  font-family: "Londrina Solid"; }
 
 .landing-container {
   text-align: center;
@@ -35,8 +35,8 @@ html {
     .landing-container .landing-wrapper .image-wrapper {
       position: relative;
       margin: 0 auto 24px auto;
-      height: 500px;
-      width: 500px;
+      height: 400px;
+      width: 600px;
       text-align: center; }
       .landing-container .landing-wrapper .image-wrapper .landing-image {
         position: absolute;
@@ -71,7 +71,8 @@ html {
       -moz-transition: letter-spacing 0.25s linear;
       -o-transition: letter-spacing 0.25s linear;
       transition: letter-spacing 0.25s linear;
-      font-size: 1.25rem; }
+      font-size: 1.5rem;
+      letter-spacing: 0.1rem; }
       .landing-container .landing-wrapper .link:hover {
         cursor: pointer;
         letter-spacing: 0.3rem; }
@@ -89,12 +90,13 @@ html {
     font-size: 50px;
     text-transform: uppercase; }
   .about-container .about-info {
-    font-family: "Lato", sans-serif;
+    font-family: "Londrina Solid", sans-serif;
+    letter-spacing: 1px;
     font-weight: 300;
     padding: 20px;
     max-width: 900px;
     margin: 0 auto;
-    font-size: 1.25rem; }
+    font-size: 1.5rem; }
     .about-container .about-info.info {
       text-align: center;
       line-height: 3rem;
@@ -112,10 +114,7 @@ html {
           text-align: left;
           width: 100%; } }
       .about-container .about-info .about-bullet .about-icon {
-        vertical-align: middle;
-        height: 35px;
-        width: 35px;
-        margin: 10px; }
+        margin-left: 15px; }
       .about-container .about-info .about-bullet span {
         position: relative;
         top: 2px; }
@@ -155,9 +154,10 @@ html {
       left: 0;
       height: 100%;
       width: 100%;
-      background: black;
+      background: white;
       opacity: 0.5; }
     .about-img-container .about-photo h1.about-photo-text {
+      font-family: "Londrina Solid", sans-serif;
       width: 100%;
       position: absolute;
       top: 50%;
@@ -198,7 +198,7 @@ html {
       display: inline-block;
       width: 49%;
       margin-right: 2%;
-      font-size: 1.5rem;
+      font-size: 2rem;
       line-height: 1.6;
       vertical-align: top; }
       .schedule-container .schedule-wrapper .column:nth-child(2n) {
@@ -212,7 +212,7 @@ html {
         font-size: 0;
         margin-bottom: 2rem; }
         .schedule-container .schedule-wrapper .column .workshop-wrapper .time-section .time-column {
-          font-family: 'Lato', Helvetica, Arial, sans-serif;
+          font-family: 'Londrina Solid', Helvetica, Arial, sans-serif;
           display: inline-block;
           vertical-align: top;
           width: 80px;
@@ -228,7 +228,7 @@ html {
             margin-bottom: 1.5rem; }
             .schedule-container .schedule-wrapper .column .workshop-wrapper .time-section .facilitator-column .facilitator .workshop-title {
               padding-right: 16px;
-              border-bottom: 1px dashed white; }
+              border-bottom: 1px dashed black; }
               .schedule-container .schedule-wrapper .column .workshop-wrapper .time-section .facilitator-column .facilitator .workshop-title::after {
                 content: "";
                 position: absolute;
@@ -238,17 +238,17 @@ html {
                 height: 0;
                 border-left: 7px solid transparent;
                 border-right: 7px solid transparent;
-                border-top: 7px solid white;
+                border-top: 7px solid black;
                 transition: border 0.15s linear; }
               .schedule-container .schedule-wrapper .column .workshop-wrapper .time-section .facilitator-column .facilitator .workshop-title.open::after {
                 border: none;
                 border-left: 7px solid transparent;
                 border-right: 7px solid transparent;
-                border-bottom: 7px solid white; }
+                border-bottom: 7px solid black; }
             .schedule-container .schedule-wrapper .column .workshop-wrapper .time-section .facilitator-column .facilitator .details {
               display: none;
               padding-bottom: 2.5rem;
-              font-family: "Lato", sans-serif;
+              font-family: "Londrina Solid", sans-serif;
               font-weight: 300;
               font-size: 1.3rem; }
               .schedule-container .schedule-wrapper .column .workshop-wrapper .time-section .facilitator-column .facilitator .details .about {
@@ -280,18 +280,18 @@ html {
                 background-position: center center; }
               .schedule-container .schedule-wrapper .column .workshop-wrapper .time-section .facilitator-column .facilitator .details .name {
                 text-align: center;
-                font-size: 1.25rem;
+                font-size: 1.5rem;
                 font-weight: 400; }
               .schedule-container .schedule-wrapper .column .workshop-wrapper .time-section .facilitator-column .facilitator .details .link {
                 text-align: center;
                 font-size: 0.9rem; }
                 .schedule-container .schedule-wrapper .column .workshop-wrapper .time-section .facilitator-column .facilitator .details .link a {
-                  color: white;
+                  color: black;
                   letter-spacing: normal;
                   text-decoration: none;
                   transition: letter-spacing 0.15s; }
                   .schedule-container .schedule-wrapper .column .workshop-wrapper .time-section .facilitator-column .facilitator .details .link a:hover {
-                    color: white;
+                    color: black;
                     letter-spacing: 0.1rem; }
       .schedule-container .schedule-wrapper .column .workshop-wrapper:hover {
         cursor: pointer; }
@@ -312,7 +312,7 @@ html {
   .column {
     padding: 0.1rem; }
   .landing-container .landing-wrapper .image-wrapper {
-    height: 400px;
+    height: 267px;
     width: 400px; } }
 
 @media (max-width: 620px) {
@@ -323,7 +323,7 @@ html {
 
 @media (max-width: 450px) {
   .landing-container .landing-wrapper .image-wrapper {
-    height: 300px;
+    height: 200px;
     width: 300px; }
   .landing-container .landing-wrapper .title-wrapper .title {
     font-size: 75px; }
