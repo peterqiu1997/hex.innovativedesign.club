@@ -14,10 +14,6 @@ html {
 #content {
   max-width: 1440px;
   margin: 0 auto;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
   background: #FDF2E5;
   color: #000;
   font-family: "Londrina Solid"; }
