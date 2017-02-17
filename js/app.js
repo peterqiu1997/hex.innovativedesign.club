@@ -33,7 +33,7 @@ var app = angular.module('hex', [])
         time: '1:00',
         people: [
           {
-            link: '',
+            link: 'https://nguyenjessie.github.io/letter',
             image: './img/schedule/kianajessie.jpg',
             name: 'Kiana Aryan & Jessie Nguyen',
             workshop: 'Intro to Lettering',
@@ -113,6 +113,19 @@ var app = angular.module('hex', [])
       {
         time: '4:00',
         people: [
+          {
+            link: 'hhttps://vimeo.com/197700709',
+            image: './img/schedule/jordan.jpg',
+            name: 'Jordan Said',
+            workshop: 'One Second, Every Day',
+            level: 'Intermediate',
+            room: '166 Barrows',
+            software: 'Final Cut Pro (or iMovie, similar video editing software)',
+            about: 'In this workshop, we\'ll watch a 1SED video (or two, or three even), then look at the skeletal structure of these videos. \
+            We will also go over how to assemble and cut clips in a consistent manner, as well as managing titles, credits, and audio. \
+            Students should come with a basic understanding of Final Cut Pro X, iMovie, or Premiere Pro. This workshop will be taught in \
+            FCPX. Attendees do not need to possess film-editing or film-assembling software, and are invited to simply watch and listen.'
+          },
           {
             link: 'http://jackiezou.com',
             image: './img/schedule/jackie.jpg',
@@ -196,7 +209,7 @@ var app = angular.module('hex', [])
             workshop: 'Digital Painting',
             level: 'Intermediate',
             room: '166 Barrows',
-            software: 'Illustrator, Photoshop, Tablet',
+            software: 'Photoshop, Tablet',
             about: 'Already got the gist of drawing and painting but have no idea how to paint digitally? Learn how to paint with \
             Photoshop by combining techniques of paints, pastels, airbrushing to create a beautiful, mess-free, art piece. Photoshop \
             and drawing skills recommended. Tablet experience a plus but not required.'
