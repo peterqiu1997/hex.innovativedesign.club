@@ -114,7 +114,7 @@ var app = angular.module('hex', [])
         time: '4:00',
         people: [
           {
-            link: 'hhttps://vimeo.com/197700709',
+            link: 'https://vimeo.com/197700709',
             image: './img/schedule/jordan.jpg',
             name: 'Jordan Said',
             workshop: 'One Second, Every Day',
