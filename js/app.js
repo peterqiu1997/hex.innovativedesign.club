@@ -221,7 +221,7 @@ var app = angular.module('hex', [])
             workshop: 'Intro to HTML/CSS',
             level: 'Beginner',
             room: '170 Barrows',
-            software: 'Google Chrome, Text Editor',
+            software: 'Google Chrome, Sublime Text (Text Editor)',
             about: 'Step into the world of web design by learning the basics of HTML/CSS while building a simple web page!  The first half\
             of the workshop will be focused on learning what HTML/CSS is and how to use it.  The second half of the workshop\
             will be me teaching you basic effects you can make with CSS.  No experience is needed,\
