@@ -1,5 +1,6 @@
 <!-- Innovative Design - HEX: (H)one & (Ex)plore -->
 <!-- By Julia Sun (http://juliasun.io/) -->
+<!-- Big thanks to Kevin Lee (http://kevinmlee.io) & Christian Le (http://christianle.com) -->
 <html id="ng-app" data-ng-app="hex">
   <head>
     <title>HEX Workshops with Innovative Design</title>
@@ -9,15 +10,12 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="http://hex.innovativedesign.club">
     <meta property="og:image" content="http://hex.innovativedesign.club/img/logo/og.png">
-    <meta property="og:description" content="Innovative Design presents HEX: Hone &amp; Explore, a workshop series where students come to learn and teach design. Spring 2017 workshops will be hosted on February 25 and 26.">
+    <meta property="og:description" content="Innovative Design presents HEX: Hone &amp; Explore, a workshop series where students come to learn and teach design. Spring 2016 workshops will be hosted on February 27 and 28.">
 
     <link rel="icon" type="image/png" href="img/logo/logo.png">
 
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
-    <link href="https://fonts.googleapis.com/css?family=Londrina+Solid" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
 
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
@@ -29,11 +27,16 @@
   <body id="content" ng-controller="MainCtrl">
     <div class="landing-container">
       <div class="landing-wrapper">
-        <div class="image-wrapper" id="image-wrapper">
-          <div class="landing-image">
-            <img src="./img/landing/hex-landing.png" alt="">
+        <a ng-href="https://www.facebook.com/events/1671304639803006/" target="_blank">
+          <div class="image-wrapper" id="image-wrapper">
+            <div class="landing-image top">
+              <img src="./img/landing/landing-image.png" alt="">
+            </div>
+            <div class="landing-image bottom">
+              <img src="./img/landing/landing-image-hover.png" alt="">
+            </div>
           </div>
-        </div>
+        </a>
         <div class="link nav-big" id="about">about</div>
         <div class="title-wrapper">
           <div class="title">hex</div>
@@ -56,24 +59,26 @@
       <div class="title">about</div>
       <div class="about-info info">
         <div class="about-bullet">
-          <i class="fa fa-calendar about-icon" aria-hidden="true"></i>
-          <span>February 25 &amp; 26</span>
+          <img class='about-icon' src="./img/about/hex-icon-cal.png">
+          <span>February 27 &amp; 28</span>
         </div>
         <div class="about-bullet">
-          <i class="fa fa-clock-o about-icon" aria-hidden="true"></i>
-          <span>12:00PM - 5:00PM</span>
+          <img class='about-icon' src="./img/about/hex-icon-clock.png">
+          <span>11:00 AM - 4:30PM</span>
         </div>
         <div class="about-bullet">
-        <i class="fa fa-map-pin about-icon" aria-hidden="true"></i>
-          <span>166 &amp; 170 Barrows</span>
+          <img class='about-icon' src="./img/about/hex-icon-pin.png">
+          <span>Barrows 151, 155, 170</span>
         </div>
       </div>
       <div class="about-info">
         <p>HEX: Hone &amp; Explore is a workshop series where students come to learn and teach design.</p>
         <br>
-        <p>Workshops are taught by members and alumni of <a ng-href="http://innovativedesign.club" target="_blank">Innovative Design</a>.  They are free and open to ALL skill levels and Cal students! Come out to learn from and meet fellow design-minded students.</p>
+        <p>Workshops are taught by members and alumni of <a ng-href="http://innovativedesign.club">Innovative Design</a>.  They are free and open to ALL skill levels and Cal students! Come out to learn from and meet fellow design-minded students.</p>
         <br>
-        <p>Check out our <a ng-href="https://www.facebook.com/events/970127336422355/" target="_blank">Facebook event</a> for more details!</p>
+        <p>If you are not a Cal Student, no worries, <a ng-href="http://tinyurl.com/HEXregistration" target="_blank">please fill out this quick form</a> if you are interested in attending HEX.</p>
+        <br>
+        <p>Check out our <a ng-href="https://www.facebook.com/events/1671304639803006/?ref=4&action_history=null&source=4">Facebook event</a> for more details!</p>
       </div>
       <div class="about-info">
         <div class="about-img-container">
@@ -118,7 +123,6 @@
                 <div class="facilitator" ng-repeat="facilitator in time.people">
                   <div class="workshop-title" ng-bind="facilitator.workshop"></div>
                   <div class="details">
-                    <div class="room" ng-bind="facilitator.room"></div>
                     <div class="about" ng-bind="facilitator.about"></div>
                     <div class="software" ng-bind="facilitator.software"></div>
                     <div class="level" ng-bind="facilitator.level"></div>
@@ -142,7 +146,6 @@
                 <div class="facilitator" ng-repeat="facilitator in time.people">
                   <div class="workshop-title" ng-bind="facilitator.workshop"></div>
                   <div class="details">
-                    <div class="room" ng-bind="facilitator.room"></div>
                     <div class="about" ng-bind="facilitator.about"></div>
                     <div class="software" ng-bind="facilitator.software"></div>
                     <div class="level" ng-bind="facilitator.level"></div>
@@ -160,7 +163,7 @@
       </div>
     </div>
     <div class="footer">
-      <a href="http://innovativedesign.club" target="_blank">
+      <a href="http://innovativedesign.club">
         <img src="./img/logo/innod.png">
       </a>
     </div>

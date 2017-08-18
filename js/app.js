@@ -2,30 +2,42 @@ var app = angular.module('hex', [])
   .controller('MainCtrl', ['$scope', '$document', function($scope, $document) {
     $scope.saturday = [
       {
-        time: '12:00',
+        time: '11:00',
         people: [
-          {
-            link: 'https://www.behance.net/anjilean',
-            image: './img/schedule/anjile.jpg',
-            name: 'Anjile An',
-            workshop: 'Intro to Illustrator',
-            level: 'Beginner',
-            room: '166 Barrows',
-            software: 'Illustrator',
-            about: 'This workshop is for those who have absolutely zero experience with Illustrator, but students will leave with a good understanding \
-            of the essential tools of Adobe Illustrator. This workshop is a great first exposure to vector graphics, and will provide the basis \
-            for other workshops throughout the day!'
-          },
           {
             link: 'http://www.tinaxu.com/',
             image: './img/schedule/tina.jpg',
             name: 'Tina Xu',
-            workshop: 'Geometric Illustrations',
+            workshop: 'Intro to Fashion Illustration',
             level: 'Beginner',
-            room: '170 Barrows',
-            software: 'Illustrator',
-            about: 'Have a hang of Illustrator but itching to take your illustrative designs to the next level? Learn how to create \
-            everything you can imagine out of geometric shapes.'
+            software: 'Pencil, Paper, Illustrator',
+            blurb: "Pretty things make me happy",
+            about: 'Learn the fundamentals of human anatomy and how it is modified in fashion illustration, as well as how to stylize different silhouettes, shapes, and fabric. We\'ll draw pretty dresses and explore ways you can elevate your finished designs!'
+          },
+          {
+            link: 'http://andiebiggs.22slides.com/after-thoughts',
+            image: './img/schedule/andie.jpg',
+            name: 'Andie Biggs',
+            workshop: 'Photo Dreamscapes: Multiple Exposures',
+            level: 'Beginner',
+            software: 'Photoshop, Lightroom',
+            blurb: 'Striving to make awkward work',
+            about: 'Learn how to make your dreams into pictures by combining multiple photos to create multi-layered exposures using Photoshop and Lightroom.',
+          }
+        ]
+      },
+      {
+        time: '12:00',
+        people: [
+          {
+            link: 'http://www.elizabethylin.com/',
+            image: './img/schedule/elizabeth.jpg',
+            name: 'Elizabeth Lin',
+            workshop: 'Design Portfolios and Interviews',
+            level: 'Beginner',
+            software: '',
+            blurb: '',
+            about: 'Come stop by Elizabeth\'s prototyping workshop this Saturday! She\'ll be going over the prototyping process: how she starts & organizes her projects and what she prioritizes when making iterations.'
           }
         ]
       },
@@ -33,25 +45,24 @@ var app = angular.module('hex', [])
         time: '1:00',
         people: [
           {
-            link: 'https://nguyenjessie.github.io/letter',
-            image: './img/schedule/kianajessie.jpg',
-            name: 'Kiana Aryan & Jessie Nguyen',
-            workshop: 'Intro to Lettering',
-            level: 'Beginner',
-            room: '166 Barrows',
-            software: 'Paper, pencil/pen',
-            about: 'Looking for ways to spice up your birthday cards or add some extra flair to your wall decor? Come out to our intro to lettering \
-            workshop and learn how to develop your own lettering style! No previous experience needed!'
+            link: 'http://hongyexu.co/',
+            image: './img/schedule/hongye.jpg',
+            name: 'Hongye Xu',
+            workshop: 'Lightwriting in After Effects',
+            level: 'Intermediate',
+            software: 'After Effects',
+            blurb: '',
+            about: 'Learn how to add dazzling light streaks to real action video and futureproof yourself for when profile videos come out.'
           },
           {
-            link: 'http://charissecelestial.com',
-            image: './img/schedule/charisse.jpg',
-            name: 'Charisse Celestial',
-            workshop: 'Intro to InDesign',
-            level: 'Beginner',
-            room: '170 Barrows',
-            software: 'Adobe InDesign',
-            about: ''
+            link: 'https://www.behance.net/royachagnon',
+            image: './img/schedule/roya.jpg',
+            name: 'Roya Chagnon',
+            workshop: 'Low Poly Portraiture',
+            level: 'Intermediate',
+            software: 'Photoshop, Illustrator',
+            blurb: '',
+            about: 'Learn how to make low-poly art! We\'ll take a photo and turn it into a final low-poly product in illustrator, learning what tools to use and some strategies and shortcuts for making the process easier.'
           }
         ]
       },
@@ -59,25 +70,24 @@ var app = angular.module('hex', [])
         time: '2:00',
         people: [
           {
-            link: 'http://www.jceyang.com',
-            image: './img/schedule/jackiejon.jpg',
-            name: 'Jackie Xu & Jonathan Yang',
+            link: 'https://drive.google.com/folderview?id=0B_2bbkn3v6VlYTY4R2FFSXBOVGc&usp=sharing',
+            image: './img/schedule/jordan.jpg',
+            name: 'Jordan Said',
             workshop: 'Intro to Lightroom',
             level: 'Beginner',
-            room: '166 Barrows',
             software: 'Lightroom',
-            about: 'Can\'t wait to edit your photos but don\'t know how? Come through to Intro to Lightroom to learn how the make the best out of your snazzy new images.'
+            blurb: '',
+            about: 'Learn the ins and outs of Lightroom, photo management and batch editing techniques. This workshop will focus on the principles of editing one photo and applying that change to multiple photos. It will mostly focus on the functionalities of Lightroom, such as sliders, brushes, color adjustments, filters, and tagging.'
           },
           {
-            link: 'http://wdd.io/',
-            image: './img/schedule/pamellen.jpg',
-            name: 'Pamela Hu & Ellen Hong',
-            workshop: 'Intro to Web Design',
-            level: 'Beginner',
-            room: '170 Barrows',
-            software: 'Google Chrome, Text Editor',
-            about: 'Come get jiggy with HTML, CSS, and pineapples. We’ll be teaching you how to design and code a Medium-inspired \
-            blog post (about pineapples) from scratch. Come for the pineapples, leave knowing web design. No experience needed!'
+            link: 'http://www.haideepan.com/',
+            image: './img/schedule/haidee.jpg',
+            name: 'Haidee Pan',
+            workshop: 'Techniques and Color in Digital Illustration',
+            level: 'Intermediate',
+            software: 'Photoshop, Paint Tool SAI, Tablet highly recommended',
+            blurb: '',
+            about: 'Learn basic digital painting techniques, how to organize layers, and effective color usage.'
           }
         ]
       },
@@ -85,28 +95,24 @@ var app = angular.module('hex', [])
         time: '3:00',
         people: [
           {
-            link: 'https://www.instagram.com/ndrewwang/',
-            image: './img/schedule/andrew.jpg',
-            name: 'Andrew Wang',
-            workshop: 'Intro to Astrophotography',
+            link: 'http://www.dtbui.com/',
+            image: './img/schedule/davidbui.jpg',
+            name: 'David Bui',
+            workshop: 'Intro to UI Design',
             level: 'Beginner',
-            room: '166 Barrows',
-            software: 'Lightroom',
-            about: 'Learn to take photos of the galaxy! We\'ll touch on what settings to use for your camera, where and when \
-            to shoot for the best results, how to edit the photos to make the stars pop, and even why the (Astro)physics work. \
-            Bring your inquisitive self for a good time, bring your laptops with Adobe Lightroom for a great time!'
+            software: 'Sketch',
+            blurb: '',
+            about: 'Learn how to use basic functions of Sketch, for example how to draw shapes, measure distances, use shadows to style elements, and more to make cute little buttons that can be used on a webpage.'
           },
           {
-            link: 'http://www.margaretzhou.com',
-            image: './img/schedule/margie.jpg',
-            name: 'Margie Zhou',
-            workshop: 'Intro to Animation',
-            level: 'Intermediate',
-            room: '170 Barrows',
-            software: 'After Effects',
-            about: 'Have an illustrator design that\'s just bursting with life? Come learn to give it some life with an Introduction \
-            to Animation from Illustrator to After Effects. This is for those with a decent amount of Illustrator and beginner level \
-            After Effects experience. We will be animating a small scene so come prepared to use both programs.'
+            link: 'http://behance.net/lisainoue',
+            image: './img/schedule/lisa.jpg',
+            name: 'Lisa Inoue',
+            workshop: 'Brush Basics for Lettering',
+            level: 'Beginner',
+            software: 'Illustrator, Brush pen, Paintbrush',
+            blurb: '',
+            about: 'Learn to the basics to brush lettering like a pro, and discover yourself along the way.'
           }
         ]
       },
@@ -114,29 +120,14 @@ var app = angular.module('hex', [])
         time: '4:00',
         people: [
           {
-            link: 'https://vimeo.com/197700709',
-            image: './img/schedule/jordan.jpg',
-            name: 'Jordan Said',
-            workshop: 'One Second, Every Day',
-            level: 'Intermediate',
-            room: '166 Barrows',
-            software: 'Final Cut Pro (or iMovie, similar video editing software)',
-            about: 'In this workshop, we\'ll watch a 1SED video (or two, or three even), then look at the skeletal structure of these videos. \
-            We will also go over how to assemble and cut clips in a consistent manner, as well as managing titles, credits, and audio. \
-            Students should come with a basic understanding of Final Cut Pro X, iMovie, or Premiere Pro. This workshop will be taught in \
-            FCPX. Attendees do not need to possess film-editing or film-assembling software, and are invited to simply watch and listen.'
-          },
-          {
-            link: 'http://jackiezou.com',
-            image: './img/schedule/jackie.jpg',
-            name: 'Jackie Zou',
-            workshop: 'Simplified Faces',
+            link: 'http://stankwong.me/',
+            image: './img/schedule/stanley.jpg',
+            name: 'Stanley Kwong',
+            workshop: 'Introduction to Web Development',
             level: 'Beginner',
-            room: '170 Barrows',
-            software: 'Illustrator (tablet optional)',
-            about: 'Trick people into thinking you can draw faces! Join me in a spicy journey as we learn how to use illustrator to make \
-            simple, sassy abstracted illustrations of your favorite celebrities/singers/dictators. Tablets/illustrator experience a plus, \
-            but neither are required to have a rip roarin\' time.'
+            software: 'Text Editor, Chrome',
+            blurb: '',
+            about: 'An introductory workshop in web development emphasizing material design. We\'ll make a GitHub repository and host a simple portfolio on GitHub pages.'
           }
         ]
       }
@@ -144,29 +135,52 @@ var app = angular.module('hex', [])
 
     $scope.sunday = [
       {
-        time: '12:00',
+        time: '11:00',
         people: [
-          {
-            link: 'http://adrianababakanian.github.io/',
-            image: './img/schedule/adriana.jpg',
-            name: 'Adriana Babakanian',
-            workshop: 'Branding & Logo Design',
-            level: 'Beginner',
-            room: '166 Barrows',
-            software: 'Illustrator',
-            about: 'Ever wanted to create a personal logo, or had an idea for a startup that you want to bring to life? Come out and \
-            explore the principles of logo, branding, and marketing design to learn how to make your own brand and visual identity!'
-          },
           {
             link: 'http://cargocollective.com/xbarbarayang',
             image: './img/schedule/barbara.jpg',
             name: 'Barbara Yang',
-            workshop: 'Lettering & Photo',
-            level: 'Intermediate',
-            room: '170 Barrows',
-            software: 'Photoshop',
-            about: 'Ever wonder how artists overlay their lettering on a photo? We\'ll walk through this lettering project from start to finish \
-            -- walk out with a printable, Instagrammable, shareable image! Lettering and Photoshop experience is useful but not required.'
+            workshop: 'Introduction to Hand Lettering',
+            level: 'Beginner',
+            software: 'Pencil, pen',
+            blurb: '',
+            about: 'Hand lettering is all hype and wonderful, but many find it difficult to do without a brush pen or watercolors. FEAR NOT, it\'s completely possible with just a pencil or pen!! Learn how to "fake" a brush pen look and how to add the cute leaves/garlands/ribbons to match.'
+          },
+          {
+            link: 'https://www.instagram.com/anne.io/',
+            image: './img/schedule/anne.jpg',
+            name: 'Anne Lin and Tina Xu',
+            workshop: 'Photo Composition and Doodling for Instagram',
+            level: 'Beginner',
+            software: 'Illustrator, Instagram',
+            blurb: '',
+            about: 'Learn about composition in photos and in personal grids on Instagram, as well as cool tips to illustrate your favorite photos.'
+          }
+        ]
+      },
+      {
+        time: '12:00',
+        people: [
+          {
+            link: 'https://drive.google.com/open?id=0B8cbfRx4vLEdM21pN29nUkFLYlE',
+            image: './img/schedule/irene.jpg',
+            name: 'Pamela Hu and Irene Dea',
+            workshop: 'Portrait Basics in Illustrator & Lightroom',
+            level: 'Beginner',
+            software: 'Illustrator, Lightroom',
+            blurb: '',
+            about: 'You don\'t need to be a super experienced artist/photographer to make cool things/portraits and to play around with design! We will learn some basic Illustrator and Lightroom skills through creating graphic design portraits. You\'ll edit a photo in Lightroom, export it to Illustrator, and add ornamentation to create an artsy illustrated photo.'
+          },
+          {
+            link: 'https://www.dropbox.com/sh/3gefnmimvevr7fe/AABW09LBb7PvDvUZ_xaSD0Eoa?dl=0',
+            image: './img/schedule/cassie.jpg',
+            name: 'Cassie Zhou',
+            workshop: 'Making Chibis in Illustrator',
+            level: 'Beginner',
+            software: 'Illustrator',
+            blurb: '',
+            about: 'Want to learn how to make cute chibis but have little to no experience with Illustrator? Have no fear, three tools are all you really need to make anything and anyone!'
           }
         ]
       },
@@ -174,28 +188,24 @@ var app = angular.module('hex', [])
         time: '1:00',
         people: [
           {
-            link: 'http://david.xie.fm',
-            image: './img/schedule/davidx.jpg',
-            name: 'David Xie',
-            workshop: 'Retro Graphics',
-            level: 'Intermediate',
-            room: '166 Barrows',
-            software: 'Illustrator',
-            about: 'Learn how to make freaky fun retro art with David! We\'ll be using Illustrator to put together funky fun textures \
-            and wacky wild shapes akin to iconic graphic artwork from when your parents were children. Best if you\'ve got a bit of \
-            illustrator under your belt before coming in, but no stress if you\'re fresh fish!'
+            link: 'http://georgedoodles.tumblr.com/',
+            image: './img/schedule/george.jpg',
+            name: 'George Geng',
+            workshop: 'Introduction to Digital Painting',
+            level: 'Beginner',
+            software: 'Photoshop, Tablet highly recommended',
+            blurb: '',
+            about: 'A introductory walk through of painting in Photoshop, from layers and brushes to blending and shading. Attendees will do a hands-on portion creating a side profile avatar of themselves or anything.'
           },
           {
-            link: '',
-            image: './img/schedule/charley.jpg',
-            name: 'Charley Huang',
-            workshop: 'Video Color Correction',
-            level: 'Intermediate',
-            room: '170 Barrows',
-            software: 'Premiere Pro',
-            about: 'Video color correction and color grading. What\'s the difference? Is it different? Let\'s find out! Learn how to make \
-            your videos look cinematic, quirky, or fun with the magic of color correction. We will be using the tools within Adobe Premiere \
-            Pro to turn your video clips into masterpieces.'
+            link: 'http://zachowens.wix.com/zachowensphoto',
+            image: './img/schedule/zach.jpg',
+            name: 'Zach Owens',
+            workshop: 'Introduction to Film Development',
+            level: 'Beginner',
+            software: 'Lightroom',
+            blurb: '',
+            about: 'Learn about the in\'s and out\'s of black and white film tank development. We\'ll cover everything from the basics of the process, to pushing and pulling film, as well as the rewards associated with developing your own film. We\'ll wrap up with a simple way of scanning negatives into a flatbed scanner, and then using a photo editing software such as Lightroom to clean up images.'
           }
         ]
       },
@@ -203,29 +213,24 @@ var app = angular.module('hex', [])
         time: '2:00',
         people: [
           {
-            link: 'https://andreakkchau.wixsite.com/portfolio',
-            image: './img/schedule/andrea.jpg',
-            name: 'Andrea Chau',
-            workshop: 'Digital Painting',
-            level: 'Intermediate',
-            room: '166 Barrows',
-            software: 'Photoshop, Tablet',
-            about: 'Already got the gist of drawing and painting but have no idea how to paint digitally? Learn how to paint with \
-            Photoshop by combining techniques of paints, pastels, airbrushing to create a beautiful, mess-free, art piece. Photoshop \
-            and drawing skills recommended. Tablet experience a plus but not required.'
+            link: 'http://david.xie.fm/',
+            image: './img/schedule/davidxie.jpg',
+            name: 'David Xie',
+            workshop: 'Classical Calligraphy, Modern Lettering',
+            level: 'Beginner',
+            software: 'Pencil, Markers',
+            blurb: '',
+            about: 'Learn the beauty of the ~~swash~~. Implement this classical calligraphic technique to beautify all your lettering projects and give them that high fashion flair! Make elegant, loopy monograms with me!'
           },
           {
-            link: 'http://juliasun.io',
+            link: 'http://juliasun.io/',
             image: './img/schedule/julia.jpg',
             name: 'Julia Sun',
-            workshop: 'Intro to HTML/CSS',
+            workshop: 'Intro to HTML/CSS and Responsive Web Design',
             level: 'Beginner',
-            room: '170 Barrows',
-            software: 'Google Chrome, Sublime Text (Text Editor)',
-            about: 'Step into the world of web design by learning the basics of HTML/CSS while building a simple web page!  The first half\
-            of the workshop will be focused on learning what HTML/CSS is and how to use it.  The second half of the workshop\
-            will be me teaching you basic effects you can make with CSS.  No experience is needed,\
-            just a love for learning!  Resources will be provided for continued learning after the workshop.'
+            software: 'Text Editor, Chrome',
+            blurb: 'I would really enjoy a pet poro',
+            about: 'Make your own responsive (mobile-compatible) Instagram grid layout and learn basic HTML/CSS at the same time. This workshop is beginner friendly, but all skill levels are welcome!'
           }
         ]
       },
@@ -233,27 +238,39 @@ var app = angular.module('hex', [])
         time: '3:00',
         people: [
           {
-            link: 'https://www.yudisun.com/',
-            image: './img/schedule/yudi.jpg',
-            name: 'Yudi Sun',
-            workshop: 'Visual Illustration Styles',
-            level: 'Advanced',
-            room: '166 Barrows',
+            link: 'http://ashirahatti.com/',
+            image: './img/schedule/angira.jpg',
+            name: 'Angira Shirahatti',
+            workshop: 'Illustrating with Shapes',
+            level: 'Intermediate',
             software: 'Illustrator',
-            about: 'Learn how to learn new visual illustration styles! We\'ll go over creating realistic, textured and gradient illustrations, \
-            as well as how to tackle and approach all those cute n cool techniques you see on Dribbble. Illustrator experience would be fun but \
-            feel free to sit in and hang out!'
+            blurb: '',
+            about: 'An Introductory workshop in digital iilustration that will show you how to make a picture out of circles and boxes. You\'ll learn how to go from a hand sketch to an illustration, pick up tips for constructing complex shapes and how to keep your 80 million anchor points organized. We\'ll look at the Twitter logo as an example of an illustration made solely from circles, and then make our own!'
           },
           {
-            link: 'http://erikyangs.github.io/',
-            image: './img/schedule/erik.jpg',
-            name: 'Erik Yang',
-            workshop: 'Motion Graphics',
+            link: 'https://www.facebook.com/charleyhuangs/videos/929917170416885/',
+            image: './img/schedule/charley.jpg',
+            name: 'Charley Huang',
+            workshop: 'Vaporwave in Videography',
             level: 'Intermediate',
-            room: '170 Barrows',
             software: 'After Effects',
-            about: 'Inspired by animated song lyric videos? Fade in, jiggle, and animate your text and designs to life with motion graphics \
-            in Adobe After Effects. Learn how to use keyframes to smoothly transition infographics and text onto and off the screen!'
+            blurb: '',
+            about: 'Learn how to make an edgy, alternative, technicolored video in After Effects.'
+          }
+        ]
+      },
+      {
+        time: '4:00',
+        people: [
+          {
+            link: 'http://www.tinaxu.com/',
+            image: './img/schedule/tina.jpg',
+            name: 'Tina Xu',
+            workshop: 'Aesthetic Silhouettes',
+            level: 'Beginner',
+            software: 'Illustrator',
+            blurb: 'Pretty things make me happy',
+            about: 'Learn how to use clipping masks to create very simple yet compelling silhouettes.'
           }
         ]
       }
