@@ -3,6 +3,7 @@ import { Fade } from 'react-reveal';
 import arrow from '../assets/arrow.png';
 import red_card_nav from '../assets/red_card_nav.png';
 import logo from '../assets/logo.png';
+import yellow_and_green_cards from '../assets/yellow_and_green_cards.png';
 import red_transit_line from '../assets/red_transit_line.png';
 import turquoise_transit_line from '../assets/turquoise_transit_line.png';
 import yellow_transit_line from '../assets/yellow_transit_line.png';
@@ -21,6 +22,7 @@ let Link       = Scroll.Link;
 let Element    = Scroll.Element;
 
 class App extends Component {
+
   render() {
     return (
       <div className="app">
@@ -56,29 +58,29 @@ class App extends Component {
             <img src={red_card_nav} />           
             <img src={arrow} />
           </Link>
-          <div className="logo animated fadeIn">
+          <div className="logoImg animated fadeIn">
             <img src={logo}/>
           </div>
         </Section>
         <Section classes="section description">
           <Element name="description" className="element" />
           <div className="description__container">
-              <Fade className="yellow transit_line" duration={250} left><img className="yellow transit_line" src={yellow_transit_line} /></Fade>
-              <Fade className="what question" delay={250} duration={250}>
+              <Fade className="yellow transit_line" duration={500} left><img className="yellow transit_line" src={yellow_transit_line} /></Fade>
+              <Fade className="what question" delay={500} duration={500}>
                 <div className="what question">
                   <span className="title">What?</span><br/>
                   We've got workshops on everything from <br/>Photoshop and Illustrator to hand lettering to <br/>low poly art and UI/UX design.
                 </div>
               </Fade>
-              <Fade className="turquoise transit_line" delay={500} duration={250} left><img className="turquoise transit_line" src={turquoise_transit_line} /></Fade>
-              <Fade className="who question" delay={750} duration={250}>
+              <Fade className="turquoise transit_line" delay={1000} duration={500} left><img className="turquoise transit_line" src={turquoise_transit_line} /></Fade>
+              <Fade className="who question" delay={1500} duration={500}>
                 <div className="who question">
                   <span className="title">Who?</span><br/>
                   Worshops are taught and curated <br/>by Innovative Design's officers &amp; members.
                 </div>
               </Fade>
-              <Fade className="red transit_line" delay={1000} duration={250} left><img className="red transit_line" src={red_transit_line} /></Fade>
-              <Fade className="when_where question" delay={1250} duration={250}>
+              <Fade className="red transit_line" delay={2000} duration={500} left><img className="red transit_line" src={red_transit_line} /></Fade>
+              <Fade className="when_where question" delay={2500} duration={500}>
                 <div className="when_where question">
                   <span className="title">When &amp; where?</span><br/>
                   126 Barrows Hall, on three consecutive <br/>
@@ -89,6 +91,24 @@ class App extends Component {
         </Section>
         <Section classes="schedule__container">
           <Schedule />
+        </Section>
+        <Section classes="footer__container">
+          <div className="footer">
+            <Fade className="tickets" delay={500} duration={500}>
+            <div className="tickets">
+              <img src={yellow_and_green_cards} />
+              <div className="caption"> No tickets required! </div>
+              <div className="caption--sub"> Innovative Design runs HEX for free every year. </div>
+            </div>
+            </Fade>
+            <Fade className="logo" delay={1500} duration={500}>
+            <div className="logo">
+              <img src={logo} />
+              <div className="caption"> Innovative Design </div>
+              <div className="caption--sub"> Cal's student-run creative agency. </div>
+            </div>
+            </Fade>
+          </div>
         </Section>
       </div>
     );
