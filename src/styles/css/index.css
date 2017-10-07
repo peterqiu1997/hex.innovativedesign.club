@@ -144,6 +144,7 @@ html, body {
       line-height: 1.5;
       color: white;
       padding-bottom: 30px;
+      font-size: 16px;
       display: inline-block; }
       .description .description__container .question.what {
         width: calc(100% - 160px); }
@@ -178,9 +179,9 @@ html, body {
     transform: translateY(-50%);
     text-align: center; }
   .footer__container .tickets {
-    margin-right: 45px; }
+    margin-right: 30px; }
   .footer__container .logo {
-    margin-left: 45px; }
+    margin-left: 30px; }
   .footer__container .tickets, .footer__container .logo {
     display: inline-block;
     line-height: 1.5; }
