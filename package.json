@@ -1,21 +1,25 @@
 {
-  "name": "hex",
-  "version": "1.0.0",
-  "description": "Innovative Design Hex Workshops",
-  "main": "gulpfile.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jubearsun/hex.innovativedesign.club.git"
+  "name": "hex.innovativedesign.club",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "node-sass-chokidar": "0.0.3",
+    "npm-run-all": "^4.1.1",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-reveal": "^0.5.0"
   },
-  "author": "Julia Sun",
-  "license": "MIT",
   "devDependencies": {
-    "babel-core": "^6.5.2",
-    "browser-sync": "^2.11.1",
-    "gulp": "^3.9.1",
-    "gulp-sass": "^2.2.0"
+    "react-scripts": "1.0.14"
   },
   "scripts": {
-    "preinstall": "bower install"
-  }
+    "build-css": "node-sass-chokidar src/styles/scss -o src/styles/css",
+    "watch-css": "npm run build-css && node-sass-chokidar src/styles/scss -o src/styles/css --watch --recursive",
+    "start-js": "react-scripts start",
+    "start": "npm-run-all -p watch-css start-js",
+    "build": "npm run build-css && react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "homepage": "http://peterqiu1997.github.io/hex.innovativedesign.club"
 }
