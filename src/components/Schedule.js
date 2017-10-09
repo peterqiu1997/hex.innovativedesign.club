@@ -9,33 +9,33 @@ class Schedule extends Component {
       <div className="schedule">
           <div className="weekend one">
             <span className="title"> <img src={pink_card} /> Week One <span className="date">10/14</span> </span>
-            <Fade up wave tag="ul">
-              <li><div className="time">11:00</div><div className="description">Intro to Fashion Illustration</div></li>
-              <li><div className="time">12:00</div><div className="description">Photo Composition and Doodling for Instagram</div></li>
-              <li><div className="time">1:00</div><div className="description">Photo Composition and Doodling for Instagram</div></li>
-              <li><div className="time">2:00</div><div className="description">Photo Composition and Doodling for Instagram</div></li>
-              <li><div className="time">3:00</div><div className="description">Photo Composition and Doodling for Instagram</div></li>
-            </Fade>
+              <ul>
+              <li><div className="time">11:00</div><div className="description">Intro to Illustrator</div></li>
+              <li><div className="time">12:00</div><div className="description">Low Poly Art</div></li>
+              <li><div className="time">1:00</div><div className="description">UI/UX Design</div></li>
+              <li><div className="time">2:00</div><div className="description">Intro to InDesign </div></li>
+              <li><div className="time">3:00</div><div className="description">Hand Lettering</div></li>
+              </ul>
           </div>
           <div className="weekend two">
             <span className="title"> <img src={green_card} /> Week Two <span className="date">10/21</span> </span>
-            <Fade up wave tag="ul">
-              <li><span className="time">11:00</span><span className="description">Intro to Fashion Illustration</span></li>
-              <li><span className="time">12:00</span><span className="description">Design Portfolios and Interviews</span></li>
-              <li><span className="time">1:00</span><span className="description">Photo Dreamscapes: Multiple Exposures</span></li>
-              <li><span className="time">2:00</span><span className="description">Photo Composition and Doodling for Instagram</span></li>
-              <li><span className="time">3:00</span><span className="description">Portrait Basics in Illustrator & Lightroom</span></li>
-            </Fade>
+              <ul>
+              <li><span className="time">11:00</span><span className="description">Intro to Lightroom</span></li>
+              <li><span className="time">12:00</span><span className="description">Intro to Film Photography</span></li>
+              <li><span className="time">1:00</span><span className="description">Bullet Journaling</span></li>
+              <li><span className="time">2:00</span><span className="description">HTML/CSS</span></li>
+              <li><span className="time">3:00</span><span className="description">Designing Your Logo & Brand</span></li>
+              </ul>
           </div>
           <div className="weekend three">
-            <span className="title"> <img src={green_card} /> Week Three <span className="date">10/28</span> </span>
-            <Fade up wave tag="ul">
-              <li><span className="time">11:00</span><span className="description">Intro to Fashion Illustration</span></li>
-              <li><span className="time">12:00</span><span className="description">Design Portfolios and Interviews</span></li>
-              <li><span className="time">1:00</span><span className="description">Photo Dreamscapes: Multiple Exposures</span></li>
-              <li><span className="time">2:00</span><span className="description">Photo Composition and Doodling for Instagram</span></li>
-              <li><span className="time">3:00</span><span className="description">Portrait Basics in Illustrator & Lightroom</span></li>
-            </Fade>
+            <span className="title"> <img src={pink_card} /> Week Three <span className="date">10/28</span> </span>
+              <ul>
+              <li><span className="time">11:00</span><span className="description">Crafting an Effective Portfolio</span></li>
+              <li><span className="time">12:00</span><span className="description">Web Game Design</span></li>
+              <li><span className="time">1:00</span><span className="description">UI/UX Basic Design Principles</span></li>
+              <li><span className="time">2:00</span><span className="description">Astrophotography</span></li>
+              <li><span className="time">3:00</span><span className="description">Interactive Web Design</span></li>
+              </ul>
           </div>
       </div>
     );

@@ -26,12 +26,12 @@ class App extends Component {
   render() {
     return (
       <div className="app">
-        <img className="plants top_left" src={top_left_plants}/>
-        <img className="plants top_right" src={top_right_plants}/>
-        <img className="plants bottom" src={bottom_plants}/>
-        <img className="plants ferns top_left" src={top_left_ferns}/>
-        <img className="plants ferns top_right" src={top_right_ferns}/>
-        <img className="plants ferns bottom" src={bottom_ferns}/>
+        <img className="plants animated fadeIn top_left" src={top_left_plants}/>
+        <img className="plants animated fadeIn top_right" src={top_right_plants}/>
+        <img className="plants animated fadeIn bottom" src={bottom_plants}/>
+        <img className="plants animated fadeIn ferns top_left" src={top_left_ferns}/>
+        <img className="plants animated fadeIn ferns top_right" src={top_right_ferns}/>
+        <img className="plants animated fadeIn ferns bottom" src={bottom_ferns}/>
         <Section classes="section landing">
           <div className="title__container">
             <div className="content title--above animated fadeIn">
@@ -54,39 +54,33 @@ class App extends Component {
               Saturdays 10/14 to 10/28 in 126 Barrows Hall. 
             </div>
           </div>
-          <Link activeClass="active" className="content description__link animated fadeIn" to="description" spy={true} smooth={true} duration={500} >
+          <Link activeClass="active" className="content description__link animated fadeIn" to="start" spy={true} smooth={true} duration={500} >
             <img src={red_card_nav} />           
             <img src={arrow} />
           </Link>
           <div className="logoImg animated fadeIn">
-            <img src={logo}/>
+            <a href="http://www.innovativedesign.club"><img src={logo}/></a>
           </div>
         </Section>
         <Section classes="section description">
-          <Element name="description" className="element" />
+          <Element name="start" className="element" />
           <div className="description__container">
-              <Fade className="yellow transit_line" duration={500} left><img className="yellow transit_line" src={yellow_transit_line} /></Fade>
-              <Fade className="what question" delay={500} duration={500}>
+              <img className="yellow transit_line" src={yellow_transit_line} />
                 <div className="what question">
                   <span className="title">What?</span><br/>
                   We've got workshops on everything from <br/>Photoshop and Illustrator to hand lettering to <br/>low poly art and UI/UX design.
                 </div>
-              </Fade>
-              <Fade className="turquoise transit_line" delay={1000} duration={500} left><img className="turquoise transit_line" src={turquoise_transit_line} /></Fade>
-              <Fade className="who question" delay={1500} duration={500}>
+              <img className="turquoise transit_line" src={turquoise_transit_line} />
                 <div className="who question">
                   <span className="title">Who?</span><br/>
                   Worshops are taught and curated <br/>by Innovative Design's officers &amp; members.
                 </div>
-              </Fade>
-              <Fade className="red transit_line" delay={2000} duration={500} left><img className="red transit_line" src={red_transit_line} /></Fade>
-              <Fade className="when_where question" delay={2500} duration={500}>
+              <img className="red transit_line" src={red_transit_line} />
                 <div className="when_where question">
                   <span className="title">When &amp; where?</span><br/>
                   126 Barrows Hall, on three consecutive <br/>
                   Saturdays - 10/14, 10/21, and 10/28.
                 </div>
-              </Fade>
           </div>
         </Section>
         <Section classes="schedule__container">
@@ -94,20 +88,16 @@ class App extends Component {
         </Section>
         <Section classes="footer__container">
           <div className="footer">
-            <Fade className="tickets" delay={500} duration={500}>
             <div className="tickets">
               <img src={yellow_and_green_cards} />
               <div className="caption"> No tickets required! </div>
               <div className="caption--sub"> Innovative Design runs HEX for free every year. </div>
             </div>
-            </Fade>
-            <Fade className="logo" delay={1500} duration={500}>
             <div className="logo">
               <img src={logo} />
               <div className="caption"> Innovative Design </div>
               <div className="caption--sub"> Cal's student-run creative agency. </div>
             </div>
-            </Fade>
           </div>
         </Section>
       </div>

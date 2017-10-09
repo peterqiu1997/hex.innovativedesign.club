@@ -57,8 +57,6 @@
       display: block;
       height: auto;
       width: 30px; }
-    .landing .description__link :hover {
-      cursor: pointer; }
   .landing .logoImg {
     position: fixed;
     bottom: 20px;

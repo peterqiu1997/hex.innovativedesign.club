@@ -1,14 +1,15 @@
 {
-  "name": "hex.innovativedesign.club",
+  "name": "hex",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "gh-pages": "^1.0.0",
     "node-sass-chokidar": "0.0.3",
     "npm-run-all": "^4.1.1",
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0",
-    "react-reveal": "^0.5.0"
+    "react": "^15.3.1",
+    "react-dom": "^15.3.1",
+    "react-reveal": "^0.5.0",
+    "react-scroll": "^1.5.5"
   },
   "devDependencies": {
     "react-scripts": "1.0.14"
@@ -24,5 +25,5 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "homepage": "http://peterqiu1997.github.io/hex.innovativedesign.club"
+  "homepage": "http://peterqiu1997.github.io/"
 }
