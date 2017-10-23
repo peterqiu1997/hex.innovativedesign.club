@@ -32,9 +32,9 @@ class Schedule extends Component {
             <Fade up wave tag="ul">
             <li><span className="time">11:00</span><span className="description">Prototyping UIs with Origami<br/>David Bui</span></li>
             <li><span className="time">12:00</span><span className="description">Web Game Design<br/>Ethan Lee</span></li>
-            <li><span className="time">1:00</span><span className="description">UI/UX Basic Design Principles<br/>Crystal Chang</span></li>
-            <li><span className="time">2:00</span><span className="description">Astrophotography<br/>Andrew Chang</span></li>
-            <li><span className="time">3:00</span><span className="description">Interactive Web Design<br/>Ellen Hong & Peter Qiu</span></li>
+            <li><span className="time">1:00</span><span className="description">Astrophotography<br/>Andrew Chang</span></li>
+            <li><span className="time">2:00</span><span className="description">UI/UX Basic Design Principles<br/>Crystal Chang</span></li>
+            <li><span className="time">3:00</span><span className="description">Interactive Web Design<br/>Ellen Hong</span></li>
             </Fade>
           </div>
       </div>
