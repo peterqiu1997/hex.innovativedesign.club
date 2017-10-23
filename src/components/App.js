@@ -54,7 +54,7 @@ class App extends Component {
               Saturdays 10/14 to 10/28 in 126 Barrows Hall. 
             </div>
           </div>
-          <Link activeClass="active" className="content description__link animated fadeIn" to="start" spy={true} smooth={true} duration={500} >
+          <Link activeClass="active" className="content description__link animated fadeIn" to="description" spy={true} smooth={true} duration={500} >
             <img src={red_card_nav} />           
             <img src={arrow} />
           </Link>
@@ -63,24 +63,30 @@ class App extends Component {
           </div>
         </Section>
         <Section classes="section description">
-          <Element name="start" className="element" />
+          <Element name="description" className="element" />
           <div className="description__container">
-              <img className="yellow transit_line" src={yellow_transit_line} />
+              <Fade className="yellow transit_line" duration={500} left><img className="yellow transit_line" src={yellow_transit_line} /></Fade>
+              <Fade className="what question" delay={500} duration={500}>
                 <div className="what question">
                   <span className="title">What?</span><br/>
                   We've got workshops on everything from <br/>Photoshop and Illustrator to hand lettering to <br/>low poly art and UI/UX design.
                 </div>
-              <img className="turquoise transit_line" src={turquoise_transit_line} />
+              </Fade>
+              <Fade className="turquoise transit_line" delay={1000} duration={500} left><img className="turquoise transit_line" src={turquoise_transit_line} /></Fade>
+              <Fade className="who question" delay={1500} duration={500}>
                 <div className="who question">
                   <span className="title">Who?</span><br/>
                   Worshops are taught and curated <br/>by Innovative Design's officers &amp; members.
                 </div>
-              <img className="red transit_line" src={red_transit_line} />
+              </Fade>
+              <Fade className="red transit_line" delay={2000} duration={500} left><img className="red transit_line" src={red_transit_line} /></Fade>
+              <Fade className="when_where question" delay={2500} duration={500}>
                 <div className="when_where question">
                   <span className="title">When &amp; where?</span><br/>
                   126 Barrows Hall, on three consecutive <br/>
                   Saturdays - 10/14, 10/21, and 10/28.
                 </div>
+              </Fade>
           </div>
         </Section>
         <Section classes="schedule__container">
@@ -88,16 +94,20 @@ class App extends Component {
         </Section>
         <Section classes="footer__container">
           <div className="footer">
+            <Fade className="tickets" delay={500} duration={500}>
             <div className="tickets">
               <img src={yellow_and_green_cards} />
               <div className="caption"> No tickets required! </div>
               <div className="caption--sub"> Innovative Design runs HEX for free every year. </div>
             </div>
+            </Fade>
+            <Fade className="logo" delay={1500} duration={500}>
             <div className="logo">
               <img src={logo} />
               <div className="caption"> Innovative Design </div>
               <div className="caption--sub"> Cal's student-run creative agency. </div>
             </div>
+            </Fade>
           </div>
         </Section>
       </div>
